@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name IRFB3004PbF)(type Legacy)(uri /home/sergei/Documents/light/IRFB3004PbF.lib)(options "")(descr ""))
+  (lib (name smoke-machine-rescue)(type Legacy)(uri ${KIPRJMOD}/smoke-machine-rescue.lib)(options "")(descr ""))
+)

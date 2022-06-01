@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name smoke-machine)(type KiCad)(uri ${KIPRJMOD}/smoke-machine.pretty)(options "")(descr ""))
+)
