@@ -1,0 +1,93 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 25b6b237-4f1d-43a9-8cac-d53bd359ea4e)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 27.94 22.86) (size 19.05 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2c29659b-6319-4375-a4cf-17d92aea40c8)
+    (property "Sheet name" "cooler-work" (id 0) (at 27.94 22.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "cooler-work.kicad_sch" (id 1) (at 27.94 41.2246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/1c8501dd-083b-4b66-a46a-cc155c538987"
+      (reference "#PWR01") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/37a8fc0a-7f95-43fa-bab8-dc7bccc3acae"
+      (reference "#PWR02") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/0d749c27-caa0-47f1-aa28-dc0f194666a4"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/990ecb6f-8ddd-4e7d-a16d-f2da4be04c11"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/a1dc2db1-c30f-4e01-a691-70650e1c033c"
+      (reference "#PWR05") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/45b0f1f1-a4da-4598-848e-c00a2e8376a3"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/2ef4cdef-ed23-42ea-b8b6-f5da1a8df051"
+      (reference "F1") (unit 1) (value "40A") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/6e85d056-ff74-43f9-9eb0-32258103e57c"
+      (reference "F2") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/4dbb1b3e-2389-4bb7-ba23-14bcc398f3fc"
+      (reference "J1") (unit 1) (value "Conn_01x02_Female") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/8db6349a-a803-406f-8343-56dd523ec2c5"
+      (reference "J2") (unit 1) (value "Conn_01x02_Female") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/527c4c19-6c0d-430c-9ef3-96b0f4a698a7"
+      (reference "J3") (unit 1) (value "Conn_01x02_Male") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/17111f5c-e17f-454e-be17-5d98f74272ac"
+      (reference "J4") (unit 1) (value "Conn_01x02_Male") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/ca7e9868-523e-42fc-9176-7b2e2d6c6c29"
+      (reference "J5") (unit 1) (value "Conn_01x02_Female") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/8d5d685e-c206-47d5-ae2f-14603a81c00d"
+      (reference "J6") (unit 1) (value "Conn_01x02_Male") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/34af09fb-d346-41a8-be9c-feca51cee23c"
+      (reference "K1") (unit 1) (value "Relay-SPDT-DIP12") (footprint "MY_LIB:Relay-DIP-12_W7.62mm")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/58341954-f68c-49e8-8d6e-6c710d791e69"
+      (reference "LA1") (unit 1) (value "Lamp") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/46d86ea6-158a-466a-bb17-d975af411da8"
+      (reference "LA2") (unit 1) (value "Lamp") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/61a9c734-f155-40bf-8455-f734dfdeabaf"
+      (reference "M1") (unit 1) (value "Motor_DC") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/0f2ef196-e09a-43e1-a34c-74e170d3d4d2"
+      (reference "SW1") (unit 1) (value "SW_SPST") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/b24bf688-1ac3-4f6b-936b-1d9d66c3c12d"
+      (reference "SW2") (unit 1) (value "SW_SPST_Temperature") (footprint "")
+    )
+    (path "/2c29659b-6319-4375-a4cf-17d92aea40c8/049e4172-c7a3-4d5c-88d7-fbee0b833826"
+      (reference "SW3") (unit 1) (value "SW_DPST") (footprint "")
+    )
+  )
+)
