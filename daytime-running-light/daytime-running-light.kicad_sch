@@ -2097,6 +2097,9 @@
   (junction (at 55.88 113.03) (diameter 0) (color 0 0 0 0)
     (uuid 770622d9-2be2-44f0-b9fa-f18fdf868f57)
   )
+  (junction (at 120.015 168.275) (diameter 0) (color 0 0 0 0)
+    (uuid 78686813-0964-4f7d-8fcd-f561eedd85b2)
+  )
   (junction (at 59.69 155.575) (diameter 0) (color 0 0 0 0)
     (uuid 786d0dba-b268-48c2-86db-d37161bbcbdc)
   )
@@ -2111,6 +2114,9 @@
   )
   (junction (at 235.585 64.135) (diameter 0) (color 0 0 0 0)
     (uuid 90c58cbf-d164-4ad9-a8d1-6011e76ddb25)
+  )
+  (junction (at 120.015 157.48) (diameter 0) (color 0 0 0 0)
+    (uuid 978e85a8-559a-4a76-944c-5f1bfe11109a)
   )
   (junction (at 137.795 127) (diameter 0) (color 0 0 0 0)
     (uuid 9d61e7b7-98ad-4b33-9610-3b5c42100a59)
@@ -2309,10 +2315,6 @@
     (stroke (width 0) (type default))
     (uuid 50b56757-946e-4923-80f7-6057bede77ff)
   )
-  (wire (pts (xy 137.795 154.305) (xy 150.495 154.305))
-    (stroke (width 0) (type default))
-    (uuid 5210505a-d4f4-4a7f-b3df-df31464c6b80)
-  )
   (wire (pts (xy 59.69 182.245) (xy 60.96 182.245))
     (stroke (width 0) (type default))
     (uuid 53f81558-21d0-4ccc-bc56-9c942fb39259)
@@ -2385,10 +2387,6 @@
     (stroke (width 0) (type default))
     (uuid 78ce95e7-b745-48c7-b5c8-da197f9e9fbd)
   )
-  (wire (pts (xy 137.795 154.305) (xy 137.795 155.575))
-    (stroke (width 0) (type default))
-    (uuid 7b11a7b9-e0b2-424b-a565-b4a503b2ec20)
-  )
   (wire (pts (xy 120.015 170.815) (xy 120.015 168.275))
     (stroke (width 0) (type default))
     (uuid 7b858f53-4255-481e-ab1a-0df5d343439f)
@@ -2428,6 +2426,10 @@
   (wire (pts (xy 102.87 168.275) (xy 97.79 168.275))
     (stroke (width 0) (type default))
     (uuid 848eaebc-5248-40b3-8ed4-0df7e937a74c)
+  )
+  (wire (pts (xy 120.015 152.4) (xy 120.015 157.48))
+    (stroke (width 0) (type default))
+    (uuid 859dfa5b-a9e3-42ae-a489-50f4c4793d37)
   )
   (wire (pts (xy 214.63 55.245) (xy 222.885 55.245))
     (stroke (width 0) (type default))
@@ -2545,6 +2547,10 @@
     (stroke (width 0) (type default))
     (uuid bd523778-4de8-4945-9e1e-798b90c18067)
   )
+  (wire (pts (xy 120.015 157.48) (xy 120.015 168.275))
+    (stroke (width 0) (type default))
+    (uuid bdeb0a64-e805-4e55-a84d-d970c34ef2d2)
+  )
   (wire (pts (xy 137.795 120.65) (xy 137.795 127))
     (stroke (width 0) (type default))
     (uuid be58fe56-0bad-4512-97c2-77238701772c)
@@ -2569,9 +2575,17 @@
     (stroke (width 0) (type default))
     (uuid c577b114-9d4e-4295-b5d6-ca77dce71a14)
   )
+  (wire (pts (xy 154.94 154.94) (xy 173.355 154.94))
+    (stroke (width 0) (type default))
+    (uuid c71946e5-2174-44f0-a01a-9491807f30eb)
+  )
   (wire (pts (xy 135.255 170.815) (xy 137.795 170.815))
     (stroke (width 0) (type default))
     (uuid ca5a55d9-7c14-4b4d-b136-b1bdb9b23a68)
+  )
+  (wire (pts (xy 145.415 154.94) (xy 147.32 154.94))
+    (stroke (width 0) (type default))
+    (uuid cb43aff0-2a8d-4556-b7e0-134a6a39642d)
   )
   (wire (pts (xy 101.6 57.15) (xy 101.6 62.23))
     (stroke (width 0) (type default))
@@ -2616,6 +2630,10 @@
   (wire (pts (xy 55.88 113.03) (xy 55.88 111.125))
     (stroke (width 0) (type default))
     (uuid d660947f-e87e-49bc-be0e-17020ac5f23e)
+  )
+  (wire (pts (xy 135.255 154.94) (xy 137.795 154.94))
+    (stroke (width 0) (type default))
+    (uuid d7a67211-73ac-4f1d-8030-57ca0f55c038)
   )
   (wire (pts (xy 222.25 31.75) (xy 222.25 33.02))
     (stroke (width 0) (type default))
@@ -2758,6 +2776,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 271976e5-a8d2-4f2d-bb91-6a143b994199)
   )
+  (label "VCC_STAB" (at 173.355 154.94 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 2b583cc4-136f-4a9c-9bb2-2384df26067f)
+  )
   (label "ALLOW_POWER_ON" (at 46.99 51.435 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 382935f8-f7b0-4140-8875-a6901a9bc90c)
@@ -2765,10 +2787,6 @@
   (label "VCC_STAB2" (at 20.955 23.495 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 569f2d91-725c-4fae-b15c-bd4c473b88f2)
-  )
-  (label "VCC_STAB" (at 150.495 154.305 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 764d5c79-c504-47a3-a93d-1bad8201498d)
   )
   (label "HIGHBEAM" (at 13.97 182.245 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2850,8 +2868,8 @@
     (property "Datasheet" "~" (at 81.28 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ce2bba82-e9a4-4a5f-b397-7a542eaf3b4b))
-    (pin "2" (uuid d27c10fd-5f19-48a3-87b4-e031f18130bd))
+    (pin "1" (uuid 1ff70929-f9e4-4460-b574-37694dcc072c))
+    (pin "2" (uuid f69b150c-1792-42f9-acad-4ad22df27b7e))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -2876,7 +2894,7 @@
     (property "Datasheet" "" (at 59.69 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9549f5f1-8f70-46bb-b42a-837a8d7f7c99))
+    (pin "1" (uuid 4d6e0a9a-09df-490f-bc51-31769441bb30))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -2901,7 +2919,7 @@
     (property "Datasheet" "" (at 31.75 191.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9e8b9994-7f60-4730-aec6-c5ef9d688923))
+    (pin "1" (uuid 6bd11f07-4ddb-4d25-baa1-2b4db1401dad))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -2926,7 +2944,7 @@
     (property "Datasheet" "" (at 55.88 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 47559f5e-85c0-456c-b65b-66f072efd90a))
+    (pin "1" (uuid 315bbf16-d605-4178-a8bb-15351c1b735c))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -2951,8 +2969,8 @@
     (property "Datasheet" "~" (at 165.1 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ce590885-892d-4992-a0a3-878d78ee5f48))
-    (pin "2" (uuid a95a1ba9-b766-4a71-9333-6bd1ff76eb8e))
+    (pin "1" (uuid 05cc66ed-2803-457e-bdc6-d512510c7596))
+    (pin "2" (uuid 47aa31e7-af38-46cf-902e-7ba07c6d66a8))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -2977,8 +2995,8 @@
     (property "Datasheet" "~" (at 71.12 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7af119f3-7e56-4ca2-abf1-69d72e9d7a40))
-    (pin "2" (uuid ce1163ca-c7df-4690-b42a-dd6d36eb69c1))
+    (pin "1" (uuid 7bde07c7-4f65-4a4a-9455-5b8fc03a4604))
+    (pin "2" (uuid 66ffbfef-a2bb-41db-bed0-5e354a6bdc52))
     (instances
       (project "smoke-machine"
         (path "/efeac2a2-7682-4dc7-83ee-f6f1b23da506"
@@ -3008,7 +3026,7 @@
     (property "Datasheet" "" (at 135.255 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d1a4412d-09e5-485a-942f-c64b7f691fd9))
+    (pin "1" (uuid 1715ff98-63d6-4688-8a7c-13357a4d4b68))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3033,7 +3051,7 @@
     (property "Datasheet" "" (at 262.255 153.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 55f0bc26-af33-4b39-b4c9-28917abb7a12))
+    (pin "1" (uuid c7b0a7c9-1027-439c-8a46-30af20df93ea))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3058,8 +3076,8 @@
     (property "Datasheet" "~" (at 59.69 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d2c6f30f-8f89-44a0-b314-0d6bc7765091))
-    (pin "2" (uuid ddaed6ac-9e7c-4ff0-ae90-95a2c6454ea0))
+    (pin "1" (uuid b6b15a98-05df-4e7b-b3a6-ad75972b4206))
+    (pin "2" (uuid f56df285-afc6-4eb6-8ae4-0d12cba7b012))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3084,7 +3102,7 @@
     (property "Datasheet" "" (at 55.88 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9d26b1f0-0a04-4527-916a-e0a70655005e))
+    (pin "1" (uuid 8c199081-ec4b-4796-9a89-46d29e2afa25))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3109,7 +3127,7 @@
     (property "Datasheet" "" (at 228.6 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7c715223-10aa-476f-b861-67f7a60e1921))
+    (pin "1" (uuid 94955128-ef66-403c-8894-17374d94fb12))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3134,8 +3152,8 @@
     (property "Datasheet" "~" (at 222.25 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d0494b52-af24-4fe8-9479-9487ac2a0227))
-    (pin "2" (uuid aa455fdd-6c16-4d9c-ba65-cd38dcbc36af))
+    (pin "1" (uuid 87c352f4-f937-4b36-bb5e-7e14174be192))
+    (pin "2" (uuid 4bdb8d54-e670-40c2-a56b-45264614eab0))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3160,8 +3178,8 @@
     (property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf" (at 31.75 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0704d9a5-3413-4ba4-860c-f4e18de56020))
-    (pin "2" (uuid a0c67732-eb60-441c-92aa-48dd20775ebc))
+    (pin "1" (uuid 4ae61e12-09f7-4d4d-b25d-127743fca7b7))
+    (pin "2" (uuid 07a259c8-f54c-4fcb-b5e9-cb15bb3c67fe))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3186,7 +3204,7 @@
     (property "Datasheet" "~" (at 13.97 177.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 71386c67-e509-4095-aac9-96cf65cb05f2))
+    (pin "1" (uuid 0f8f8bf3-9c41-40f5-970c-471561a457f0))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3211,8 +3229,8 @@
     (property "Datasheet" "~" (at 166.37 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 692e72c2-daa0-4721-b7a9-d0e154995bb6))
-    (pin "2" (uuid b5ea7f5e-75f3-4b26-af0b-d6e4237afb15))
+    (pin "1" (uuid 65dca37e-c4cd-4114-bc81-eaa227cc43d1))
+    (pin "2" (uuid 9e5a61e4-b0fa-4521-95cd-3267fd58b39c))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3237,20 +3255,20 @@
     (property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf" (at 248.285 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4ec60185-2257-48c2-8170-165ce1760ae3))
-    (pin "2" (uuid d17625f1-5172-40cc-8faa-47ee7fe7b039))
-    (pin "3" (uuid 73b06aa2-d7da-44f0-be5f-092b8325ccc3))
-    (pin "4" (uuid 9ddf4e97-1b28-48ba-ac4f-4411c61a52e4))
-    (pin "5" (uuid 7946cec8-bfb8-4f6b-b717-d1967855d948))
-    (pin "6" (uuid 124250a1-7536-4f2b-8556-b0120ad78faa))
-    (pin "8" (uuid ea7eb99b-8b95-4239-9e9b-3483b527e08a))
-    (pin "9" (uuid b81b4ded-8110-4b18-9063-d1c03914cf55))
-    (pin "10" (uuid 12c920e6-909c-4eb2-8b7f-7d9a7bcefb00))
-    (pin "11" (uuid 5f765b39-816a-4210-8448-f2375daa6ff6))
-    (pin "12" (uuid 54df89fb-c26c-44ac-b647-abcc6983475c))
-    (pin "13" (uuid 1616ee7e-9517-42f9-a37e-82a19ba8ddcb))
-    (pin "14" (uuid 75737472-b826-4d52-8346-543a705bd19c))
-    (pin "7" (uuid 68bd27b1-1c8d-4986-a815-ecda34a3e312))
+    (pin "1" (uuid aa8f123f-77db-4ba0-97dc-de748466e8fd))
+    (pin "2" (uuid bb5bbe7e-721b-45c0-9d19-f6b1ba165f70))
+    (pin "3" (uuid a07440d5-f859-47c1-a4d7-230c6a34502c))
+    (pin "4" (uuid 5f22d2ac-cc9a-4695-8375-b070db224f11))
+    (pin "5" (uuid 1ef86b16-8654-49aa-827c-ace632753817))
+    (pin "6" (uuid fc182236-2bf9-444b-8df5-bb82db09fda9))
+    (pin "8" (uuid 489fe22c-143a-4227-85de-5c467696f605))
+    (pin "9" (uuid ef41f8dd-bc22-45cc-bef9-93dcf8964c2b))
+    (pin "10" (uuid 41b7467d-d0ec-4325-a812-8113a4274820))
+    (pin "11" (uuid fa63e828-4454-4051-b133-f1e5504c3d12))
+    (pin "12" (uuid fa90f0c8-d6ac-4ee4-b09f-d29b71ca4f17))
+    (pin "13" (uuid ef74c592-54ad-4b7f-9db1-9ab8e935c18b))
+    (pin "14" (uuid 72ed806e-42cd-403e-a883-88f34d668d1f))
+    (pin "7" (uuid b36ded86-f581-488b-a6d3-b94e2c3356d8))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3275,7 +3293,7 @@
     (property "Datasheet" "" (at 234.95 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bf6c8ff6-8b75-4ac8-9495-93670b6e87c2))
+    (pin "1" (uuid 4ba8715e-204e-40b2-b41c-64fbf2c28d91))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3300,7 +3318,7 @@
     (property "Datasheet" "" (at 71.12 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 26961cc9-fadd-4533-aa0b-670269aada2c))
+    (pin "1" (uuid 2c6234c0-4bbe-48a1-9270-b858137b35bb))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3325,8 +3343,8 @@
     (property "Datasheet" "~" (at 46.99 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c980f4fb-5637-47ae-8b8f-027f95fe2c15))
-    (pin "2" (uuid 74c716da-d44a-43ce-bbbc-68e1ad9f544a))
+    (pin "1" (uuid edeed290-559c-43bf-9b31-26846c59cf9c))
+    (pin "2" (uuid 7c821fbb-aa16-45f1-b39f-4158d2e8038b))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3351,8 +3369,8 @@
     (property "Datasheet" "~" (at 42.545 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ac872cba-c6d5-434b-b5e3-684bfeacebd6))
-    (pin "2" (uuid 841b0476-9995-4c15-b9fa-56288f995269))
+    (pin "1" (uuid 93c2a0c4-b9fa-4edc-912c-04dad2495ba9))
+    (pin "2" (uuid 9874c892-c8c2-4b03-a9bc-b0f99e8619d5))
     (instances
       (project "smoke-machine"
         (path "/efeac2a2-7682-4dc7-83ee-f6f1b23da506"
@@ -3382,7 +3400,7 @@
     (property "Datasheet" "" (at 189.865 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8d5ee271-33a9-4e51-8160-558719b3430b))
+    (pin "1" (uuid 52c4f1a6-23a4-42a1-a5ea-fce91c4c504a))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3407,7 +3425,7 @@
     (property "Datasheet" "" (at 157.48 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 53d5c685-1cbd-4c47-8393-4979e9f489e4))
+    (pin "1" (uuid a41f7959-2d34-45c6-b7d8-3922030f3cc5))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3432,8 +3450,8 @@
     (property "Datasheet" "~" (at 247.015 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid de74d815-a6b7-4429-8a8d-24923981aefe))
-    (pin "2" (uuid 6b474b67-5c1f-4dc3-9ac3-4055f598f37e))
+    (pin "1" (uuid 09a02689-1598-46e3-9f54-ee9310f17566))
+    (pin "2" (uuid 5afd894f-be1c-4fc1-8c5f-ba723fc23053))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3458,9 +3476,9 @@
     (property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf" (at 200.025 57.785 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 7aa41755-d67b-41d1-8705-e01fbefcc667))
-    (pin "2" (uuid b3be061b-0cda-4614-b01c-32a4dece5405))
-    (pin "3" (uuid 07471f82-e43c-4308-a3b8-e5fdbe6305d8))
+    (pin "1" (uuid 186b41f9-8beb-4cfb-aea5-d947353e01c8))
+    (pin "2" (uuid dffcf897-2278-4652-9410-49d5a4730a37))
+    (pin "3" (uuid e57745f6-e86a-4c15-b264-76640574a687))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3485,8 +3503,8 @@
     (property "Datasheet" "~" (at 200.66 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3f172c8a-52da-402c-8400-0e95f288a271))
-    (pin "2" (uuid 987703fe-5fab-4af2-836d-b7e692016ba0))
+    (pin "1" (uuid 52c3f372-baa3-46e7-9744-48ed508b9b95))
+    (pin "2" (uuid 5f2311c9-2c2b-41ce-9686-6b87edb28d58))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3511,7 +3529,7 @@
     (property "Datasheet" "~" (at 99.06 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6b128777-7b5b-4f26-874a-11875161c868))
+    (pin "1" (uuid 1becc66a-a493-405f-a355-8420979f1fc5))
     (instances
       (project "smoke-machine"
         (path "/efeac2a2-7682-4dc7-83ee-f6f1b23da506"
@@ -3541,8 +3559,8 @@
     (property "Datasheet" "~" (at 137.795 184.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid beaf7729-75a5-4585-a907-75ff9eebae49))
-    (pin "2" (uuid 1d22da78-676f-41f5-8c7f-a476cc659505))
+    (pin "1" (uuid c080466b-e617-40d7-845f-5c582717c528))
+    (pin "2" (uuid 40fce998-2632-4ab2-a310-4530e9ffa763))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3567,7 +3585,7 @@
     (property "Datasheet" "" (at 157.48 33.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bf2a3dcb-4b50-4063-95bd-51d1f131ea94))
+    (pin "1" (uuid f189a4d1-04fe-417a-b021-95c48b38f114))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3592,8 +3610,8 @@
     (property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf" (at 137.795 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6312c9fd-5ad3-4796-8036-664fa93fdc73))
-    (pin "2" (uuid cef457f9-6478-499e-8349-8c99ef1747dc))
+    (pin "1" (uuid 039d3438-ee5a-4871-b457-0acfb3b7f5f3))
+    (pin "2" (uuid 3637987b-0b79-4205-a37f-0bb6b88f8204))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3618,7 +3636,7 @@
     (property "Datasheet" "" (at 254.635 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 02cf3119-0771-40fd-9f80-f004a305ea06))
+    (pin "1" (uuid a374b02c-a332-46e4-96b9-436eb8adcae5))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3628,35 +3646,35 @@
     )
   )
 
-  (symbol (lib_id "4xxx:4001") (at 269.875 155.575 0) (unit 4)
+  (symbol (lib_id "4xxx:4001") (at 127.635 154.94 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3bc0e43d-d1ea-4009-bf9d-47bf4a88a600)
-    (property "Reference" "U4" (at 269.875 146.685 0)
+    (property "Reference" "U4" (at 127.635 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "4001" (at 269.875 149.225 0)
+    (property "Value" "4001" (at 127.635 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 269.875 155.575 0)
+    (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 127.635 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" (at 269.875 155.575 0)
+    (property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" (at 127.635 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c092e034-480b-4059-8064-f0edc69435e6))
-    (pin "2" (uuid 704009a0-36be-4001-abf1-1120b886f191))
-    (pin "3" (uuid 3b3f8b64-8866-49ef-ab94-2074648f12f2))
-    (pin "4" (uuid 2caa1be4-4206-47a2-988d-5e3266b34369))
-    (pin "5" (uuid c6907721-4354-498f-b5fb-2891df0c5033))
-    (pin "6" (uuid 6ed0b502-da07-4141-9469-e570b47e2b40))
-    (pin "10" (uuid 6844f134-7928-41ee-b6ac-8a2b8e0bcef7))
-    (pin "8" (uuid a4a1421b-3097-4581-9794-6debffb99ee0))
-    (pin "9" (uuid ec1999ac-91f6-4a62-b6af-0e91484b9a4b))
-    (pin "11" (uuid 2785fc35-9a7d-46ef-a45d-71f90387e300))
-    (pin "12" (uuid dd4a9327-7218-4e7e-b3e8-4c0a2c1a117b))
-    (pin "13" (uuid a0c3e33e-c406-46c9-81ce-17c5bb98d108))
-    (pin "14" (uuid 6ee36440-c9c4-43b2-8784-58fcda302d99))
-    (pin "7" (uuid 34ca261b-3a7a-43b5-abd7-863acccbb489))
+    (pin "1" (uuid 01fe432c-325e-473f-9da1-bac557cd9e48))
+    (pin "2" (uuid 6f451763-2b2f-4617-b8c3-7aff6d633482))
+    (pin "3" (uuid ee762b49-131e-4d0b-abca-a68b65ca08fc))
+    (pin "4" (uuid ff32db6b-1225-4e2b-acfc-7341970c732c))
+    (pin "5" (uuid 8a9d04d7-bab1-495f-a903-caf97b193d35))
+    (pin "6" (uuid 0ec08e5d-7fe0-4959-97ed-f23c5f8e88af))
+    (pin "10" (uuid 8c3ce377-41a5-451f-a970-93e7d93d2053))
+    (pin "8" (uuid d0377fc8-567a-48c1-8c2e-119028f718d5))
+    (pin "9" (uuid 79b6bcd2-2e25-40de-96e4-e0d883d6dadd))
+    (pin "11" (uuid a552cf4a-bb15-4fc6-a78a-0ec68b6019c4))
+    (pin "12" (uuid 3085c3c4-32a0-42ac-95ae-8baa3df85c2e))
+    (pin "13" (uuid bfa304ce-3074-43f8-9ace-406d9a618b13))
+    (pin "14" (uuid 0461259c-10f0-4ba6-8169-8be3447b5409))
+    (pin "7" (uuid 01aaab02-402e-4f30-8e52-b26848b3ca4d))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3681,8 +3699,8 @@
     (property "Datasheet" "~" (at 53.34 182.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3e77cba5-dd88-4def-af7c-6922eff4e817))
-    (pin "2" (uuid cd8476e5-d86a-4360-98c6-e067aac81266))
+    (pin "1" (uuid 9cea940d-cb80-4f2b-9cd0-a346af00e11d))
+    (pin "2" (uuid 6d1f65e4-892e-42b9-a4dc-165d6d58945c))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3707,7 +3725,7 @@
     (property "Datasheet" "~" (at 13.97 150.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bb86de39-6041-487d-8c2d-744d038cc0d3))
+    (pin "1" (uuid d9050b7a-44a6-4448-98f5-9939548226a9))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3732,14 +3750,14 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlc555.pdf" (at 77.47 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4d1f8141-f115-4f70-ab77-56bb8f1d1b5d))
-    (pin "8" (uuid ef21c594-3b1d-4659-ae83-6d385549ae2e))
-    (pin "2" (uuid 1fa5a6ee-55c3-43d7-a5d8-a2e8688b9d4b))
-    (pin "3" (uuid 02df6eab-dc71-4652-928d-d9eb57b0897c))
-    (pin "4" (uuid 994ec260-c675-4579-bc4c-116a3d486d50))
-    (pin "5" (uuid 636cd1a9-9045-4667-ba2d-20b44997ec99))
-    (pin "6" (uuid ee22af40-407d-4500-adce-9b94b7284c9f))
-    (pin "7" (uuid 4f5970d1-9e1b-411c-9647-b142d859003b))
+    (pin "1" (uuid 6773c57f-b78e-4a85-ac8d-042d1052c5fc))
+    (pin "8" (uuid afc62529-b8ab-450d-8d90-bd40b8ba7e31))
+    (pin "2" (uuid 8a47b536-7962-4624-b619-3e48a231a4ec))
+    (pin "3" (uuid 7dae947d-a916-4c8e-bf56-0747a2d214c5))
+    (pin "4" (uuid 5c073b9a-06ca-4a07-9456-0d70e4a7f2fb))
+    (pin "5" (uuid 1f1e5bfd-8bf9-4938-a968-42210d366578))
+    (pin "6" (uuid f1e4d71f-8dd6-4aad-8160-b05c810c0847))
+    (pin "7" (uuid 46f178b7-4ca1-4be6-8e50-b1b29b9d7e60))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3764,9 +3782,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" (at 53.34 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid bd121f08-81b0-4ae4-9168-7e3a2a010d0f))
-    (pin "2" (uuid 7e15ab3f-0913-40db-a898-8d80cc4a4062))
-    (pin "3" (uuid 3856bea0-d2bc-4595-aa52-8d06ad85fb3c))
+    (pin "1" (uuid bd104bba-5093-4ec6-86da-7fe8fa3647df))
+    (pin "2" (uuid 7efe0551-6522-42b9-b9fa-51e83e28a9f0))
+    (pin "3" (uuid 5d397e31-1427-4474-a5c7-9fc32de88297))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3791,8 +3809,8 @@
     (property "Datasheet" "~" (at 53.34 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0947d6d5-d792-4dfa-942c-ba23ca3ad09e))
-    (pin "2" (uuid d61817b6-d9f9-4523-a9af-25f20f15e755))
+    (pin "1" (uuid 77e20bd0-b9ee-4fdd-8f6b-c9b6c9d7b37e))
+    (pin "2" (uuid 5555c42f-2db2-4376-8549-5dc4a9b1bd01))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3817,8 +3835,8 @@
     (property "Datasheet" "~" (at 209.55 45.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 75367dea-2398-4c96-b22e-40040ddf0c49))
-    (pin "2" (uuid 753d8916-ebe6-4478-9061-43300e794ae7))
+    (pin "1" (uuid f52b74f8-c7a6-4293-b020-2fefc4a8a97d))
+    (pin "2" (uuid 57e43b38-4772-465b-af80-805b8de0ca03))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3843,8 +3861,8 @@
     (property "Datasheet" "~" (at 269.875 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d013bed8-d6c4-4a9e-94ac-9379e382ee7c))
-    (pin "2" (uuid 5aeda3b4-a336-4967-846d-226f08c072ff))
+    (pin "1" (uuid 19982124-6dd0-477e-bce2-15550cb87452))
+    (pin "2" (uuid 653cd3d1-0e7f-47a7-a8f8-728c6efe9f19))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3869,8 +3887,8 @@
     (property "Datasheet" "~" (at 212.09 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 87409490-6db5-4400-8e7e-e52a25bc3147))
-    (pin "2" (uuid f7c8851e-0d33-4d3d-9616-816d9d2bc04b))
+    (pin "1" (uuid 8aa38424-dd44-4852-a710-d2012c4a0c51))
+    (pin "2" (uuid bd2616c7-a367-477a-878b-362a74a51dee))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3895,8 +3913,8 @@
     (property "Datasheet" "~" (at 120.65 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b166d224-c94e-4f8a-af2c-8236fc3d7e7a))
-    (pin "2" (uuid 8ea555f2-475a-41c8-ad7c-2a5f1a235306))
+    (pin "1" (uuid 3e88ee0f-31f7-4253-bc4f-a81916fff31a))
+    (pin "2" (uuid 7772ede1-da20-4d51-a723-45160f9fee56))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3921,8 +3939,8 @@
     (property "Datasheet" "~" (at 246.38 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0e7b8a29-1ded-4882-9e7a-8b31f36d52c7))
-    (pin "2" (uuid 5b7af016-aefe-4719-80bf-f73a963f684f))
+    (pin "1" (uuid 1978ae7a-c303-4d30-aeb4-8102ed8c34ed))
+    (pin "2" (uuid 3dbfd951-e5bf-49ab-8ee5-8a8b14e66105))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3947,8 +3965,8 @@
     (property "Datasheet" "~" (at 92.71 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d25549d8-ce0c-49c5-977c-772bf8d9f1d1))
-    (pin "2" (uuid 13c509f6-1630-44c6-92ac-cab8d639791f))
+    (pin "1" (uuid b1826f32-1ef5-4964-b569-2d444e299438))
+    (pin "2" (uuid 7b85db35-0425-45b5-9408-99dec0ff46f1))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -3973,20 +3991,20 @@
     (property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" (at 254.635 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 450394c3-3bca-4dbc-842d-f74045e3daf1))
-    (pin "2" (uuid 36a192e5-d043-40e9-9b2a-4cb13a29b239))
-    (pin "3" (uuid 8da9a915-ab89-4a90-861d-00a3ade3336a))
-    (pin "4" (uuid adf14f85-c598-4532-82e8-0a8a2444e384))
-    (pin "5" (uuid e592a0a3-acfa-4de4-b604-46dccf292779))
-    (pin "6" (uuid 726ed09b-d258-4b86-bb20-6721bff6de91))
-    (pin "10" (uuid f5551801-dcbc-4754-b63b-e6312eea3fbc))
-    (pin "8" (uuid 83538bca-a881-4d10-8a4e-618a98064c9d))
-    (pin "9" (uuid 9391da60-0ba1-4d31-b505-3e217257c015))
-    (pin "11" (uuid 56c09a68-36f1-48f8-8105-77951844fd85))
-    (pin "12" (uuid 1da11ac5-ac9a-4cf2-9870-8410eea5aa90))
-    (pin "13" (uuid ceffbd52-2687-4a79-b6c8-50b0a410942b))
-    (pin "14" (uuid 9d819574-4e60-4fc9-9a37-f147b21663ab))
-    (pin "7" (uuid e9a799f0-24e4-4a50-97a5-1ba7b82f84db))
+    (pin "1" (uuid 4880697f-61d1-48ec-acd1-05dc17d7f415))
+    (pin "2" (uuid f144b448-fa5c-4b6d-b7ba-19bd102523dc))
+    (pin "3" (uuid 639b59ba-4d25-4256-acf5-7089fbcca6a8))
+    (pin "4" (uuid a728fa34-22d2-41df-8d13-4e7141d25526))
+    (pin "5" (uuid c7190f09-6ebc-4e77-9b98-fb889ce97075))
+    (pin "6" (uuid c573c818-74a1-4738-b376-2f04b71e51ad))
+    (pin "10" (uuid 3fbb495b-3312-4a59-95ac-fbae3380c466))
+    (pin "8" (uuid 4c782930-6154-43e9-abb3-8ced8e834571))
+    (pin "9" (uuid ded9e0e3-25a6-40d5-a275-0a001e4e7fe5))
+    (pin "11" (uuid e006c48b-4826-4a85-88ed-442bbf8c1639))
+    (pin "12" (uuid e2b4d902-fcd2-41aa-87de-28ea268b55fa))
+    (pin "13" (uuid fd33ae9a-5c77-4fcd-8d1c-6606a2929bfc))
+    (pin "14" (uuid 31654959-3068-4587-b883-f0613fd5e61e))
+    (pin "7" (uuid 2ffedcef-9704-472e-979f-ba6478255144))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4011,9 +4029,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" (at 23.495 51.435 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 1df21ede-f18d-4e55-b11a-86b1126cc7ec))
-    (pin "2" (uuid b4065300-77f4-4ea9-b487-ea8528849e31))
-    (pin "3" (uuid 5b59f9f1-3657-42fa-954c-011ebd23bfa6))
+    (pin "1" (uuid b86d4c4c-a8b0-46e0-87f7-9144288adf67))
+    (pin "2" (uuid c1876a98-2b33-41f1-8cd6-6fa1b3679ad0))
+    (pin "3" (uuid 79107e92-70c8-4481-8d65-357eb758705e))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4038,8 +4056,8 @@
     (property "Datasheet" "~" (at 46.99 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5edbacf5-2a1b-46d8-bf2e-12a49bba2441))
-    (pin "2" (uuid 443f9008-0ad3-48ad-bb10-beecf0186ad1))
+    (pin "1" (uuid aeda3d57-1a53-491a-9ce9-b7817b371e7c))
+    (pin "2" (uuid 5796ee3e-8165-4e95-ba3c-1fbb5161efcf))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4064,7 +4082,7 @@
     (property "Datasheet" "" (at 46.99 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cfce62a5-70e5-414e-8d96-b2a87eafff0f))
+    (pin "1" (uuid 35bd394b-713e-42ed-9f48-16e34b32183e))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4089,9 +4107,9 @@
     (property "Datasheet" "~" (at 93.98 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2e153f96-55fb-4b60-be45-9da1e1d53ad1))
-    (pin "2" (uuid da6c99db-6ec2-4c93-a638-9b651f0f8ab6))
-    (pin "3" (uuid fe40e861-20cb-40a6-8465-c4929a12922d))
+    (pin "1" (uuid 1805d595-d4a4-4aed-acd1-9a4be13cc9bd))
+    (pin "2" (uuid eaafc29a-58c4-4318-b614-7e08d9944abd))
+    (pin "3" (uuid 42c0e232-7473-4d57-b40a-ec5a60cbdbf3))
     (instances
       (project "smoke-machine"
         (path "/efeac2a2-7682-4dc7-83ee-f6f1b23da506"
@@ -4121,7 +4139,7 @@
     (property "Datasheet" "" (at 120.65 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f1666a93-75a3-4bb1-8f61-28c31ca29395))
+    (pin "1" (uuid 04beab49-0d94-450a-8eb1-6b31f8ca022b))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4146,8 +4164,8 @@
     (property "Datasheet" "~" (at 93.98 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7be16138-cb09-4a89-a732-c7cc630ddf98))
-    (pin "2" (uuid 6ce7376c-3d18-46f2-935b-3a0482ee9ea8))
+    (pin "1" (uuid 8b6a66c4-86ca-4b61-a24c-d929aee68e30))
+    (pin "2" (uuid 4bff6fee-c7fa-4620-a30c-3807305ec1be))
     (instances
       (project "smoke-machine"
         (path "/efeac2a2-7682-4dc7-83ee-f6f1b23da506"
@@ -4177,8 +4195,8 @@
     (property "Datasheet" "~" (at 223.52 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 38ed43a2-6e7a-4487-a133-bb7f7b9bbb17))
-    (pin "2" (uuid f06ce2a6-e329-4aed-9121-4ebaa2b87e14))
+    (pin "1" (uuid 8f303b7e-7510-4602-bc22-01655861c734))
+    (pin "2" (uuid 111d0b03-2978-4e85-83e3-951a2c90d33d))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4203,7 +4221,7 @@
     (property "Datasheet" "" (at 55.88 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a034155c-a3a2-45b6-9441-202d35e5f664))
+    (pin "1" (uuid 22296c79-cd31-4e74-a150-9f29d4c6054f))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4228,20 +4246,20 @@
     (property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" (at 269.875 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c092e034-480b-4059-8064-f0edc69435e7))
-    (pin "2" (uuid 704009a0-36be-4001-abf1-1120b886f192))
-    (pin "3" (uuid 3b3f8b64-8866-49ef-ab94-2074648f12f3))
-    (pin "4" (uuid 4ae1d9d7-d44d-44be-945e-ccced33273ae))
-    (pin "5" (uuid 5203c1ee-03a7-4e8b-b18a-e8fa7d141839))
-    (pin "6" (uuid e674338f-515c-4791-abf1-81565fa2976f))
-    (pin "10" (uuid 6844f134-7928-41ee-b6ac-8a2b8e0bcef8))
-    (pin "8" (uuid a4a1421b-3097-4581-9794-6debffb99ee1))
-    (pin "9" (uuid ec1999ac-91f6-4a62-b6af-0e91484b9a4c))
-    (pin "11" (uuid 2785fc35-9a7d-46ef-a45d-71f90387e301))
-    (pin "12" (uuid dd4a9327-7218-4e7e-b3e8-4c0a2c1a117c))
-    (pin "13" (uuid a0c3e33e-c406-46c9-81ce-17c5bb98d109))
-    (pin "14" (uuid 6ee36440-c9c4-43b2-8784-58fcda302d9a))
-    (pin "7" (uuid 34ca261b-3a7a-43b5-abd7-863acccbb48a))
+    (pin "1" (uuid 904075f1-b9a7-447b-85aa-e6779070901b))
+    (pin "2" (uuid 686f8cf0-f924-4a8d-8bc6-a7b9ffb0142a))
+    (pin "3" (uuid e85e9beb-b1ed-4623-9a2d-f03516e58434))
+    (pin "4" (uuid 96344268-f331-456a-b6d3-3939cabc922b))
+    (pin "5" (uuid 1a734efb-ea02-44cb-9a53-89949b8e2cbb))
+    (pin "6" (uuid ac21f2ae-3fce-453d-8021-43f442c53e3a))
+    (pin "10" (uuid 0f54a9a3-8245-4401-81af-94d8bac9b569))
+    (pin "8" (uuid e9c34c5d-e534-4608-a8e4-c90367de1589))
+    (pin "9" (uuid 64c694c8-68e9-4bc0-90e8-e0313602987e))
+    (pin "11" (uuid 3fa574ed-5a0b-45c2-a4c3-20e9e240c2d4))
+    (pin "12" (uuid ddf9c5a9-e0de-42cd-b7b1-d9f8267cb003))
+    (pin "13" (uuid b38464e9-c087-4f7b-b0d4-5dc126389440))
+    (pin "14" (uuid 316324a8-1667-4fd0-888b-d707b98d0065))
+    (pin "7" (uuid b1dc1791-d950-4c75-a565-af0abd0538da))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4266,8 +4284,8 @@
     (property "Datasheet" "~" (at 97.79 161.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e9755294-7894-4977-99b8-2917bcceda3f))
-    (pin "2" (uuid 397c1318-d313-4f49-966e-1dd125befe2f))
+    (pin "1" (uuid a9464b67-5825-45de-911c-1b7ce54cb762))
+    (pin "2" (uuid 5139e6a6-df72-45fe-bd36-397c6168dc38))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4292,7 +4310,7 @@
     (property "Datasheet" "" (at 137.795 188.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5fd3fdac-823e-4b48-ae27-5bff9fefcbed))
+    (pin "1" (uuid 5cd43990-511a-4cfc-9d03-69e2cb69498c))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4317,11 +4335,37 @@
     (property "Datasheet" "" (at 31.75 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ac5854e2-ca36-4111-8e4f-8945ecb0f127))
+    (pin "1" (uuid 97288226-6ca2-48ec-9fb4-a3584f63e03d))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
           (reference "#PWR017") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 151.13 154.94 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 77fcd730-5e1d-4190-929e-082fd9516319)
+    (property "Reference" "R4" (at 151.13 149.225 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "R" (at 151.13 151.765 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (at 151.13 156.718 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 151.13 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6d5f130d-0d47-40f5-a869-4a64fafe975d))
+    (pin "2" (uuid f7f6ea35-ef07-46ba-8df4-3d5f09409ed8))
+    (instances
+      (project "daytime-running-light"
+        (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -4342,7 +4386,7 @@
     (property "Datasheet" "" (at 213.36 121.285 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b038478e-61ff-4ecf-87a3-1d4c5349a4d8))
+    (pin "1" (uuid 82313ab1-417b-4653-9c35-f7d4705b715e))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4367,20 +4411,20 @@
     (property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf" (at 68.58 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 593cac5f-3c4d-4824-86b6-72c8ed0a4b1b))
-    (pin "2" (uuid 4bcee808-99e1-474d-8d23-48e5c93098ae))
-    (pin "3" (uuid 73b06aa2-d7da-44f0-be5f-092b8325ccc4))
-    (pin "4" (uuid 9ddf4e97-1b28-48ba-ac4f-4411c61a52e5))
-    (pin "5" (uuid 7946cec8-bfb8-4f6b-b717-d1967855d949))
-    (pin "6" (uuid 124250a1-7536-4f2b-8556-b0120ad78fab))
-    (pin "8" (uuid ea7eb99b-8b95-4239-9e9b-3483b527e08b))
-    (pin "9" (uuid b81b4ded-8110-4b18-9063-d1c03914cf56))
-    (pin "10" (uuid 12c920e6-909c-4eb2-8b7f-7d9a7bcefb01))
-    (pin "11" (uuid 5f765b39-816a-4210-8448-f2375daa6ff7))
-    (pin "12" (uuid 54df89fb-c26c-44ac-b647-abcc6983475d))
-    (pin "13" (uuid 1616ee7e-9517-42f9-a37e-82a19ba8ddcc))
-    (pin "14" (uuid 75737472-b826-4d52-8346-543a705bd19d))
-    (pin "7" (uuid 68bd27b1-1c8d-4986-a815-ecda34a3e313))
+    (pin "1" (uuid 891bf18e-f82c-436e-95b1-730098df41d3))
+    (pin "2" (uuid af8e3fc7-f1f5-4c00-ad7e-360b4b0678c9))
+    (pin "3" (uuid 0bd9d384-e4d7-43c6-8cb5-b794f2e4c206))
+    (pin "4" (uuid 4de14743-f924-41fb-941d-f18f35609b22))
+    (pin "5" (uuid 5b5423c5-f1f8-4588-ae0b-ec72badab5b2))
+    (pin "6" (uuid 5279aa0a-7fa2-40fc-863e-c37b18fdad1f))
+    (pin "8" (uuid e7d64274-504a-4ce4-86f0-93e5c7b47add))
+    (pin "9" (uuid af48c438-64e3-4b55-937e-4979dbd53f2e))
+    (pin "10" (uuid a913bb4c-a56c-4ab5-ace7-bdffb9b59532))
+    (pin "11" (uuid 8cb9ec66-1b4e-4b6b-a6be-ea7cfdd3e1c9))
+    (pin "12" (uuid 78968acd-54f8-494f-b83a-56ce9a8c866b))
+    (pin "13" (uuid 62a8d6a1-9afc-4176-ae76-2446143dca8d))
+    (pin "14" (uuid 224db9fd-f209-4e49-97b2-5238817223b9))
+    (pin "7" (uuid cde402b5-0aa2-4979-8c73-c693352022c8))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4405,8 +4449,8 @@
     (property "Datasheet" "~" (at 228.6 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 57e00841-7239-45bf-8bb4-86a1127dda85))
-    (pin "2" (uuid c9a8268d-a5a4-4605-be23-98d9c8c789bb))
+    (pin "1" (uuid 52f6cf46-43b9-4b8f-a9bf-1df71a445c96))
+    (pin "2" (uuid 0eafcbf7-39de-4627-8c09-c59761ecd1b8))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4431,20 +4475,20 @@
     (property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" (at 110.49 170.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 328e6d11-939e-4111-8e66-fb175ca5a6b2))
-    (pin "2" (uuid 1a001a23-4588-4e6a-a1f9-5e986006ae03))
-    (pin "3" (uuid 21761018-be19-42dc-802a-e2403e01303b))
-    (pin "4" (uuid 4ae1d9d7-d44d-44be-945e-ccced33273af))
-    (pin "5" (uuid 5203c1ee-03a7-4e8b-b18a-e8fa7d14183a))
-    (pin "6" (uuid e674338f-515c-4791-abf1-81565fa29770))
-    (pin "10" (uuid 6844f134-7928-41ee-b6ac-8a2b8e0bcef9))
-    (pin "8" (uuid a4a1421b-3097-4581-9794-6debffb99ee2))
-    (pin "9" (uuid ec1999ac-91f6-4a62-b6af-0e91484b9a4d))
-    (pin "11" (uuid 2785fc35-9a7d-46ef-a45d-71f90387e302))
-    (pin "12" (uuid dd4a9327-7218-4e7e-b3e8-4c0a2c1a117d))
-    (pin "13" (uuid a0c3e33e-c406-46c9-81ce-17c5bb98d10a))
-    (pin "14" (uuid 6ee36440-c9c4-43b2-8784-58fcda302d9b))
-    (pin "7" (uuid 34ca261b-3a7a-43b5-abd7-863acccbb48b))
+    (pin "1" (uuid 189170c8-17ae-480b-90b7-0427dc73e863))
+    (pin "2" (uuid cd3134e8-8248-4017-862b-1f7011d2c887))
+    (pin "3" (uuid f074ccd6-c19e-4e03-a8b3-c766c4462fdc))
+    (pin "4" (uuid 60d442e3-f4d2-4976-96ad-8f771ab14b2a))
+    (pin "5" (uuid aa8b6f6d-391b-4b26-ad7a-5fd4d369f19f))
+    (pin "6" (uuid 655a54a5-7d9d-4f8a-b887-80fe92afa678))
+    (pin "10" (uuid c3298f51-6597-4cfd-a26c-8d2bba5c806b))
+    (pin "8" (uuid e0c0a6b6-ce58-4de3-a0ea-3c07858edb30))
+    (pin "9" (uuid 7b3611b6-ec01-41e7-9266-6f0fbceca6f5))
+    (pin "11" (uuid 9044fa8b-093e-4b63-ac92-45f385ceb4e8))
+    (pin "12" (uuid 5ef039ca-5562-40ce-a87e-d75e26dd7b9c))
+    (pin "13" (uuid bfae9164-8baa-4ed5-a678-e08045d5c425))
+    (pin "14" (uuid 25365425-0c28-4c69-9b56-c421aaec083b))
+    (pin "7" (uuid 479d35dd-ba74-4b46-9077-cf4b71c5feda))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4469,7 +4513,7 @@
     (property "Datasheet" "" (at 59.69 191.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bd3b7cab-8e0c-4e7e-83b8-8b402259e39a))
+    (pin "1" (uuid 8129767e-2800-4c13-b78a-b450bd17391d))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4494,7 +4538,7 @@
     (property "Datasheet" "~" (at 146.685 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8b5d928a-4cac-4d45-bbf3-7b6bebfc822d))
+    (pin "1" (uuid 26ffcf99-9ba6-4a96-8ad0-25512c0fb5b8))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4519,38 +4563,12 @@
     (property "Datasheet" "~" (at 222.885 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 111aee02-bce7-410f-b43e-2bbfe4e200a5))
-    (pin "2" (uuid 6c74609f-b4dc-468b-8a2b-da6095cece20))
+    (pin "1" (uuid b7aae055-a5e8-4c87-9174-153e3fd5a616))
+    (pin "2" (uuid 513a6117-0a6b-426a-9cc0-eabde808b23b))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
           (reference "C6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 137.795 159.385 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 96be3a3f-cda7-4668-a041-8520907ba143)
-    (property "Reference" "R4" (at 135.89 160.655 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "R" (at 135.89 158.115 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (at 139.573 159.385 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 137.795 159.385 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ea7bc19e-487d-498b-a6ef-ce0fa8fc136d))
-    (pin "2" (uuid d1465aca-29ef-41ab-a2ef-2eebf9c8c97c))
-    (instances
-      (project "daytime-running-light"
-        (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
-          (reference "R4") (unit 1)
         )
       )
     )
@@ -4571,7 +4589,7 @@
     (property "Datasheet" "" (at 262.255 137.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f54c74da-91cb-45b0-8087-0a02061a978a))
+    (pin "1" (uuid ee884627-9284-43d8-9e27-49e63c39e965))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4596,8 +4614,8 @@
     (property "Datasheet" "~" (at 146.05 170.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 09c5cc54-5d23-4e2e-95de-74b7cf9df0c7))
-    (pin "2" (uuid 45673e7b-720b-4520-9d80-5d7f1d011148))
+    (pin "1" (uuid ad77cdb2-ed76-4f8f-a7c6-1c28065cee6d))
+    (pin "2" (uuid 439c663e-451a-4d73-bb35-fa38a364599f))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4622,8 +4640,8 @@
     (property "Datasheet" "~" (at 20.955 38.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d9e00d4f-2c4c-4882-a97f-e098e57650e0))
-    (pin "2" (uuid 36aecdd9-ab61-4acd-9eec-20817ff54a08))
+    (pin "1" (uuid d30294ae-9653-4ecd-b78f-7d4bb243c487))
+    (pin "2" (uuid c09d591e-c857-4128-a5bf-5a85234f499e))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4648,8 +4666,8 @@
     (property "Datasheet" "~" (at 93.98 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e56b7532-71b1-4153-a975-2ba3a6738fb2))
-    (pin "2" (uuid be754517-f18e-44de-8c39-bd6d9b23967a))
+    (pin "1" (uuid 22967a30-2a2a-4fe3-ad3a-3aa91e5320db))
+    (pin "2" (uuid 49197bb9-7815-4587-b65e-7fe5baa2714e))
     (instances
       (project "smoke-machine"
         (path "/efeac2a2-7682-4dc7-83ee-f6f1b23da506"
@@ -4679,20 +4697,20 @@
     (property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf" (at 85.09 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a195ce2b-3fef-4e92-a103-f7175067cabf))
-    (pin "2" (uuid a689bdec-9818-4ed4-acb5-93de7f1add01))
-    (pin "3" (uuid de8d3610-b94b-459f-a898-3f905831eb21))
-    (pin "4" (uuid ab8a4694-1453-4753-b70e-bb7f2250296d))
-    (pin "5" (uuid 8f263f1f-309b-4813-8d3b-81a51d9c162b))
-    (pin "6" (uuid 1d62c451-c10e-485a-98e7-5a5b18bfe502))
-    (pin "8" (uuid 83f38895-9639-4f14-8a6a-77a2d71331cd))
-    (pin "9" (uuid 5bc6e38d-790a-4243-b45a-ea9cd446055a))
-    (pin "10" (uuid c97019cb-b9d6-4e21-87c9-86a6b3b30f12))
-    (pin "11" (uuid d9933603-ed87-44de-b416-e661c0c5397b))
-    (pin "12" (uuid e436b853-4c16-4e99-a693-3750db0b1e8e))
-    (pin "13" (uuid 16667541-c60b-463c-ae2c-4fc5ca1cae57))
-    (pin "14" (uuid 86b6b480-69d4-415f-9463-e238fa4852ed))
-    (pin "7" (uuid 44af5f16-d5ce-484e-91b6-0c0a0b96ce5d))
+    (pin "1" (uuid 49df8eb7-8de6-4e73-9c3e-c3d9874a014e))
+    (pin "2" (uuid 1830448f-2cff-4291-b717-ed77023cf50a))
+    (pin "3" (uuid f544d637-eabe-4ef2-88fd-fd5055501995))
+    (pin "4" (uuid 4799d9bc-dfbe-4737-8c39-d67e01652dde))
+    (pin "5" (uuid 4f83ca11-edfb-4502-b368-addfd21c09e3))
+    (pin "6" (uuid a19452e6-941d-4df7-ae7b-ee0547e22aca))
+    (pin "8" (uuid 46b8a334-8fc1-49c9-a3c0-5cca836550f0))
+    (pin "9" (uuid 930d46f3-c3bf-42f4-a47e-b09dd4e18220))
+    (pin "10" (uuid 0a11b244-64dd-4f55-99af-231734072cd4))
+    (pin "11" (uuid b69b80f5-dbaa-446e-81fc-cee52fbaef5a))
+    (pin "12" (uuid 606144cf-e3dc-4cdd-864b-cbc32c496f50))
+    (pin "13" (uuid 35e3f140-bace-4d6f-b12b-87b8f3b8f3da))
+    (pin "14" (uuid 36094a7e-7bf6-4ff3-bc70-ad62a369edd6))
+    (pin "7" (uuid 6aa2f280-9786-4458-a7e3-9804b92ff921))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4717,7 +4735,7 @@
     (property "Datasheet" "" (at 157.48 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 66f96c5d-70f7-400b-970d-bf3f3999e92f))
+    (pin "1" (uuid 9bc5f668-0434-457c-b408-1603e98860e1))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4742,7 +4760,7 @@
     (property "Datasheet" "" (at 240.03 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b8bc72bc-9ba1-4970-86cc-73c2ec37b1e7))
+    (pin "1" (uuid dd551998-1404-4491-bcd2-ea3458a33b44))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4767,8 +4785,8 @@
     (property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf" (at 31.75 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f89bcb0a-4d3d-4c46-8391-d2480b27287d))
-    (pin "2" (uuid a9ede690-283b-400f-90bb-160006f2fd92))
+    (pin "1" (uuid 28a90fa8-05d1-478e-996b-6c90839bfb59))
+    (pin "2" (uuid 2af7cb72-b4d1-4935-811b-7b2ce74585da))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4793,7 +4811,7 @@
     (property "Datasheet" "" (at 46.99 191.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fad7ed4a-0f69-4e7f-b546-d68b6db11b7d))
+    (pin "1" (uuid 7e7ad2af-86d6-4c68-8766-722d21def2bd))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4818,7 +4836,7 @@
     (property "Datasheet" "~" (at 235.585 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 07d1e36c-fd33-4ccc-93a5-f60b2e677833))
+    (pin "1" (uuid dc80db22-a368-465e-b966-72e5de0ad9fb))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4843,7 +4861,7 @@
     (property "Datasheet" "" (at 157.48 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 03a4b7ac-a05a-4499-bb66-72df4f072256))
+    (pin "1" (uuid c6fba64b-25e2-46db-a12c-203b1896e11e))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4877,9 +4895,9 @@
     (property "Sim.Pins" "1=D 2=G 3=S" (at 118.11 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8700ade4-7304-4ce0-b45a-e65e09ba0620))
-    (pin "2" (uuid 7ab540da-5ad7-4169-b05a-31ec8985a7e6))
-    (pin "3" (uuid 2ea232df-f541-456e-acd7-90cf330aa680))
+    (pin "1" (uuid c584e4f7-d7d7-4361-81c4-c9c2eadaf7de))
+    (pin "2" (uuid a7569b9b-1fc9-40e8-ba27-d166456abd90))
+    (pin "3" (uuid 66d3504b-5ce2-4e8f-bb2e-b91091ddd4d4))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4910,8 +4928,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 93.345 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 042d0265-440b-4ca4-ba91-b776b9acd346))
-    (pin "2" (uuid bc0779aa-2c8d-4cc8-8bce-564a42b71212))
+    (pin "1" (uuid 15258dd6-8745-4745-9adc-35d6a0388632))
+    (pin "2" (uuid c5617e55-792a-47c0-81da-aad8d0e8f7f1))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4936,7 +4954,7 @@
     (property "Datasheet" "" (at 240.665 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 36b29a4f-2d58-4326-8013-55b6781190df))
+    (pin "1" (uuid 466b1197-0590-40e2-a9ac-6a3aabd4e682))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4961,8 +4979,8 @@
     (property "Datasheet" "~" (at 26.67 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 362f597b-074c-472a-b224-298ac2568618))
-    (pin "2" (uuid ac4f3bff-8270-4819-8089-b4554f6e9b18))
+    (pin "1" (uuid bd5c0d64-84c9-471e-8527-213842d591e9))
+    (pin "2" (uuid ff5909ff-81c9-4032-8174-5dc761231cc2))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -4987,8 +5005,8 @@
     (property "Datasheet" "~" (at 55.88 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4fb65bcb-db5b-4ec4-b601-948c93bac3f3))
-    (pin "2" (uuid 7d0d0a97-f426-4007-a7fe-9dfd2c45865c))
+    (pin "1" (uuid 325a8695-3e2d-44a3-b091-b678ce8d82e3))
+    (pin "2" (uuid ed53b83c-6db1-4fdb-a6a2-1ab48e590aab))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5013,11 +5031,37 @@
     (property "Datasheet" "" (at 262.255 158.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0ca55b4e-f521-4799-b9d9-6c8d5a97cba2))
+    (pin "1" (uuid 6ae54bdf-0d53-4358-9414-e5b047f6f597))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
           (reference "#PWR027") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 141.605 154.94 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c7639e70-ac60-4b3d-b449-3400750cf285)
+    (property "Reference" "D4" (at 140.0175 147.955 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LED" (at 140.0175 150.495 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "LED_THT:LED_D5.0mm" (at 141.605 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 141.605 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 15a923cc-b092-4c95-8a9f-898ef527f38f))
+    (pin "2" (uuid 4a7904a9-67a1-4ca1-bcba-0ce5453ea8d6))
+    (instances
+      (project "daytime-running-light"
+        (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -5038,8 +5082,8 @@
     (property "Datasheet" "~" (at 135.255 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d12950ca-20a0-4d9c-9810-372d8bc0e3ff))
-    (pin "2" (uuid 5f68a908-9735-4021-99ba-081250faa30e))
+    (pin "1" (uuid 926cd15b-a626-4f17-90a6-8075c03b8a92))
+    (pin "2" (uuid ec2e937e-635f-44c8-83e1-1588c7b3b3d8))
     (instances
       (project "smoke-machine"
         (path "/efeac2a2-7682-4dc7-83ee-f6f1b23da506"
@@ -5069,9 +5113,9 @@
     (property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" (at 235.585 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 31bfce74-0394-4255-9857-8f156d1760e8))
-    (pin "2" (uuid ff3acabf-06da-4826-b8bc-de3b2d0133d6))
-    (pin "3" (uuid 5b97a51d-cd41-44e1-a8e8-35d31eb2cc9f))
+    (pin "1" (uuid 2dfe6573-fb56-46d8-8088-1d1fd98ce05b))
+    (pin "2" (uuid 614565b7-d48f-4619-9f08-5fcd2ab5d23a))
+    (pin "3" (uuid 2d373c50-0c71-426c-b633-8d6ff8860ebb))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5096,8 +5140,8 @@
     (property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf" (at 93.98 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 09345d76-403f-46d8-9c1f-ea5b891391ae))
-    (pin "2" (uuid 23919eff-fb25-4191-9554-3e5bb83b2047))
+    (pin "1" (uuid 13ef1716-a626-41a4-81ad-068deefd75b9))
+    (pin "2" (uuid 096dbb44-7ea9-44d8-a452-9b3af3851116))
     (instances
       (project "smoke-machine"
         (path "/efeac2a2-7682-4dc7-83ee-f6f1b23da506"
@@ -5127,7 +5171,7 @@
     (property "Datasheet" "" (at 262.255 142.875 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a654002b-4372-4878-8026-18b0d6bdab7e))
+    (pin "1" (uuid 5686d7d1-d75d-4566-87fa-088a293a2f16))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5152,7 +5196,7 @@
     (property "Datasheet" "~" (at 167.005 170.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5700c274-2363-4c7f-8aa4-0729604ede94))
+    (pin "1" (uuid 7953feb1-ef86-4442-91fc-35087f0b67cb))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5177,20 +5221,20 @@
     (property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf" (at 247.65 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4ec60185-2257-48c2-8170-165ce1760ae4))
-    (pin "2" (uuid d17625f1-5172-40cc-8faa-47ee7fe7b03a))
-    (pin "3" (uuid 73b06aa2-d7da-44f0-be5f-092b8325ccc5))
-    (pin "4" (uuid 9ddf4e97-1b28-48ba-ac4f-4411c61a52e6))
-    (pin "5" (uuid 7946cec8-bfb8-4f6b-b717-d1967855d94a))
-    (pin "6" (uuid 124250a1-7536-4f2b-8556-b0120ad78fac))
-    (pin "8" (uuid ea7eb99b-8b95-4239-9e9b-3483b527e08c))
-    (pin "9" (uuid b81b4ded-8110-4b18-9063-d1c03914cf57))
-    (pin "10" (uuid 0dfc1cc3-7dcb-4f14-9caa-2a81eb80cdfe))
-    (pin "11" (uuid 922acc1b-27ec-4e54-922b-2bc0d17c239a))
-    (pin "12" (uuid 54df89fb-c26c-44ac-b647-abcc6983475e))
-    (pin "13" (uuid 1616ee7e-9517-42f9-a37e-82a19ba8ddcd))
-    (pin "14" (uuid 75737472-b826-4d52-8346-543a705bd19e))
-    (pin "7" (uuid 68bd27b1-1c8d-4986-a815-ecda34a3e314))
+    (pin "1" (uuid 2f7df262-768b-4aac-b1ac-9ed45f6207b9))
+    (pin "2" (uuid ed263ef4-f0f2-44c6-a8cc-a8d66aa38025))
+    (pin "3" (uuid d0a8e47b-e6bb-48fa-9ff4-c28ffe70c12a))
+    (pin "4" (uuid 20c0ccd4-96f6-4a14-b86c-33127d1dc98e))
+    (pin "5" (uuid dbc06e7a-b191-48f1-920e-11b1e5f40dd7))
+    (pin "6" (uuid 10c625dd-7f1d-4a9f-8264-6c6b6697455b))
+    (pin "8" (uuid df78201f-a7a2-424a-9f38-8222e39d6cdf))
+    (pin "9" (uuid 8f730697-5973-479b-b546-e7c2074fc7e9))
+    (pin "10" (uuid bbe1fae8-42c1-4397-9492-9145c2fc64b1))
+    (pin "11" (uuid 6776d121-c46e-446c-a504-2388cfce8755))
+    (pin "12" (uuid d22a7cec-9fde-42ac-834f-25d9d1b42df6))
+    (pin "13" (uuid 90c03b8b-4fac-4e85-b6ab-4ac8451a4381))
+    (pin "14" (uuid 9c0e2072-9a52-491b-beb2-2464d9b67ba3))
+    (pin "7" (uuid f8fa6d42-0e1e-4802-8c32-e3e2e54c16e0))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5215,7 +5259,7 @@
     (property "Datasheet" "~" (at 105.41 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c384d6ec-8f33-4ffb-bdca-6a7bd69aea86))
+    (pin "1" (uuid 5d0b304c-77ba-4b5c-b2c7-9bcaf9783825))
     (instances
       (project "smoke-machine"
         (path "/efeac2a2-7682-4dc7-83ee-f6f1b23da506"
@@ -5245,38 +5289,12 @@
     (property "Datasheet" "~" (at 97.79 178.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 33ea065a-8b1b-4ca2-9c5f-8e1fe05657bb))
-    (pin "2" (uuid d42d230e-23f7-4464-9753-bfd84a295a5d))
+    (pin "1" (uuid 88b9aa4d-465e-46c6-95fb-b0ef26f320f1))
+    (pin "2" (uuid f92a23c2-09e2-441e-b336-f63ae326537f))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
           (reference "R9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED") (at 137.795 167.005 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid dde5123d-36cd-41f2-a61c-85becdd15995)
-    (property "Reference" "D4" (at 134.62 166.6875 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "LED" (at 134.62 164.1475 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm" (at 137.795 167.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 137.795 167.005 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 376092b3-9db5-4741-a451-7bf314db6020))
-    (pin "2" (uuid 4b240086-370e-4400-8227-d8de9fddd5f1))
-    (instances
-      (project "daytime-running-light"
-        (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
-          (reference "D4") (unit 1)
         )
       )
     )
@@ -5297,8 +5315,8 @@
     (property "Datasheet" "~" (at 137.795 175.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4702d445-8ab3-4730-a359-47c6817d829b))
-    (pin "2" (uuid 078cc63b-d1b9-4d8b-8943-e8f26d0e10e5))
+    (pin "1" (uuid ad4dfc50-396d-49b4-8ae1-72c6798e1155))
+    (pin "2" (uuid 22363607-9468-4852-a1a3-cbc67932cb0d))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5323,20 +5341,20 @@
     (property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf" (at 68.58 182.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bb84e135-7ace-442a-940e-d1b8f9dea587))
-    (pin "2" (uuid f14eec37-2911-4daf-9ebb-d441032877dc))
-    (pin "3" (uuid 73b06aa2-d7da-44f0-be5f-092b8325ccc6))
-    (pin "4" (uuid 9ddf4e97-1b28-48ba-ac4f-4411c61a52e7))
-    (pin "5" (uuid 7946cec8-bfb8-4f6b-b717-d1967855d94b))
-    (pin "6" (uuid 124250a1-7536-4f2b-8556-b0120ad78fad))
-    (pin "8" (uuid ea7eb99b-8b95-4239-9e9b-3483b527e08d))
-    (pin "9" (uuid b81b4ded-8110-4b18-9063-d1c03914cf58))
-    (pin "10" (uuid 12c920e6-909c-4eb2-8b7f-7d9a7bcefb02))
-    (pin "11" (uuid 5f765b39-816a-4210-8448-f2375daa6ff8))
-    (pin "12" (uuid 54df89fb-c26c-44ac-b647-abcc6983475f))
-    (pin "13" (uuid 1616ee7e-9517-42f9-a37e-82a19ba8ddce))
-    (pin "14" (uuid 75737472-b826-4d52-8346-543a705bd19f))
-    (pin "7" (uuid 68bd27b1-1c8d-4986-a815-ecda34a3e315))
+    (pin "1" (uuid 7c821b53-be78-4564-aead-b0e1ac6d5eb6))
+    (pin "2" (uuid a6a1dbe3-775a-477e-ac92-0bb17c4bb746))
+    (pin "3" (uuid ad8df86f-aae5-4509-8738-6190b966aca7))
+    (pin "4" (uuid 481bf5a5-8c02-4ded-84a5-5736b99e24b1))
+    (pin "5" (uuid 526e8e92-6a31-4ce7-88c0-27217e0760c1))
+    (pin "6" (uuid 437e42d6-23cf-4209-8486-75900b456bb4))
+    (pin "8" (uuid cfbe5baf-3f8d-4000-a395-0902a9c143bc))
+    (pin "9" (uuid 489637bd-8657-4a9e-852c-be24326b0791))
+    (pin "10" (uuid 1fb14f60-4093-42ae-99e3-1e5a6fa7a1fd))
+    (pin "11" (uuid 56195f60-2fe7-4b76-86d1-0781f24a22ab))
+    (pin "12" (uuid b1296c93-4312-45ee-b941-2de79ed58f86))
+    (pin "13" (uuid ae86696b-e33e-43a6-86ae-5ca43f2fdf28))
+    (pin "14" (uuid cc2ec21c-5a80-422c-958e-cd0eada2d88d))
+    (pin "7" (uuid ead109e2-ae8e-4886-a8cd-8cdb812221a0))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5361,7 +5379,7 @@
     (property "Datasheet" "" (at 269.875 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 04b4cb0f-2ebf-4085-842a-1a648b4179f0))
+    (pin "1" (uuid 98f8f216-cc0e-4e42-abd5-39d98227c0a7))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5386,9 +5404,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" (at 102.235 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 274ee799-026e-4e0b-a2b2-67bcfec66a79))
-    (pin "2" (uuid d67c1c1d-c726-4983-b860-71701b90d0ae))
-    (pin "3" (uuid be47f293-9bab-4be8-bfad-37836c53dace))
+    (pin "1" (uuid 2444679f-2b14-4fea-b856-8cba33c9c684))
+    (pin "2" (uuid 497d1e3a-298d-402a-abbf-651bf6b446d7))
+    (pin "3" (uuid 90269b49-4cde-436d-ad3e-3827796bba2e))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5413,20 +5431,20 @@
     (property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" (at 127.635 170.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c092e034-480b-4059-8064-f0edc69435e8))
-    (pin "2" (uuid 704009a0-36be-4001-abf1-1120b886f193))
-    (pin "3" (uuid 3b3f8b64-8866-49ef-ab94-2074648f12f4))
-    (pin "4" (uuid 2caa1be4-4206-47a2-988d-5e3266b3436a))
-    (pin "5" (uuid c6907721-4354-498f-b5fb-2891df0c5034))
-    (pin "6" (uuid 6ed0b502-da07-4141-9469-e570b47e2b41))
-    (pin "10" (uuid bd335b25-167c-4a6c-971d-b698cd959528))
-    (pin "8" (uuid 13ca562d-232d-46ae-bfde-825243b7d44a))
-    (pin "9" (uuid 1fd6b694-76b4-41b8-a769-40028ed5af3c))
-    (pin "11" (uuid 2785fc35-9a7d-46ef-a45d-71f90387e303))
-    (pin "12" (uuid dd4a9327-7218-4e7e-b3e8-4c0a2c1a117e))
-    (pin "13" (uuid a0c3e33e-c406-46c9-81ce-17c5bb98d10b))
-    (pin "14" (uuid 6ee36440-c9c4-43b2-8784-58fcda302d9c))
-    (pin "7" (uuid 34ca261b-3a7a-43b5-abd7-863acccbb48c))
+    (pin "1" (uuid d67022d5-9ef9-4b8b-9033-c127d33a43c3))
+    (pin "2" (uuid eb7780e3-1388-49ef-9bac-53b7e3e1dea0))
+    (pin "3" (uuid b74d1734-1247-46f0-ad87-9d3ecf7a5fd6))
+    (pin "4" (uuid 1b23be20-1ca6-4852-943e-1e56c92f676e))
+    (pin "5" (uuid 0adad9c4-36f9-4da5-9fd0-a6aec600c34e))
+    (pin "6" (uuid 24a002bc-1852-4086-a991-3d101c42cffe))
+    (pin "10" (uuid e252145f-ec08-4b23-bec1-6b5b3e9c62f0))
+    (pin "8" (uuid 835a43cd-fc40-4282-9dbb-b595dececaf0))
+    (pin "9" (uuid 0f52a0b7-cac3-423e-a481-dd37022f37b8))
+    (pin "11" (uuid 7b66033b-eb9d-48be-b5d0-c52c3ad041e0))
+    (pin "12" (uuid 781cd99d-e6bc-40b2-ada5-eb8fc379962c))
+    (pin "13" (uuid 77b7bc0a-f6e5-4e65-8352-e83e55f5e9b9))
+    (pin "14" (uuid 29664561-28b2-4f49-aa5b-da88723efd0b))
+    (pin "7" (uuid 3e92d20f-6659-487c-be14-f4a8e7f8c8f2))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5451,20 +5469,20 @@
     (property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf" (at 213.36 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e59551e9-84a0-4bb8-aa00-e7dd5bd8a5a7))
-    (pin "2" (uuid e28c0d9f-25e2-4e09-834a-9fa5dfdf64b8))
-    (pin "3" (uuid 6b5e0ca4-9a88-4fcf-9325-367b54102bce))
-    (pin "4" (uuid f73342cf-77aa-4ec4-81c7-e81c6dfa53e9))
-    (pin "5" (uuid b0a1b635-f1db-4bd1-9662-53410a406212))
-    (pin "6" (uuid 73f0199b-4d8c-4847-8dcd-5e2966eeca70))
-    (pin "8" (uuid 8ea1d2cc-4ecf-4907-afbb-b40a2c3e3d53))
-    (pin "9" (uuid 82ae45ff-997c-4863-8381-dd490a3dd760))
-    (pin "10" (uuid d2f963a7-e3a9-48c4-9f31-99a49476936a))
-    (pin "11" (uuid aca489a3-bbbf-46d5-bf3f-f48e680c3cbb))
-    (pin "12" (uuid 7e943f79-9eeb-418e-9f44-b25c6ad87170))
-    (pin "13" (uuid 5d3d37fa-aea1-4d18-8b2a-cc00964605a4))
-    (pin "14" (uuid f0126f1d-c74f-42dc-9728-1c992873b27b))
-    (pin "7" (uuid 14faabe9-1bb4-4f2f-873b-5e0dcd7309d8))
+    (pin "1" (uuid a2463a93-730c-41c6-8b83-8eea16842f41))
+    (pin "2" (uuid 09d37bd7-abbf-4fde-b3a2-8d52df75bf8b))
+    (pin "3" (uuid 5b403729-b179-4b6b-a019-cf0644ece61f))
+    (pin "4" (uuid a71da75b-9aeb-4c38-92fa-e02e1e60f069))
+    (pin "5" (uuid 87ff6678-c231-4a40-8d68-7bd389bac7c1))
+    (pin "6" (uuid 49b8b6ac-ccae-42fd-bdc0-45f554fbc7c6))
+    (pin "8" (uuid 35779584-3f02-4eaa-a0fa-ec70d2e6e849))
+    (pin "9" (uuid db7aecfb-cd65-4548-b3b9-ae2bea9244e0))
+    (pin "10" (uuid 87073238-e54d-4318-9d49-7c82dc9b3381))
+    (pin "11" (uuid 37ceb9c3-36b6-4003-a6bf-d480852e4d4d))
+    (pin "12" (uuid 1b82a03b-7414-4c0e-9040-a0283dfde975))
+    (pin "13" (uuid cef343b9-b7f9-4383-8baa-23e2374a6686))
+    (pin "14" (uuid 2d231e90-c342-48b0-9ae4-f72a85562421))
+    (pin "7" (uuid b653cdd3-0204-4860-a9fb-8414e0612179))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5489,9 +5507,9 @@
     (property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" (at 234.95 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a6907e44-b9f1-4b40-9103-306992375fef))
-    (pin "2" (uuid 9afc276d-8b5a-4178-8b8a-6bf9268aa63e))
-    (pin "3" (uuid 1e4ba2d4-7632-4928-9afe-d9675ea56d62))
+    (pin "1" (uuid 8010d142-de68-40e5-8ea9-3eeb9818731f))
+    (pin "2" (uuid 0d701a41-0942-4dcb-a9ea-4253458f4393))
+    (pin "3" (uuid 7e070c5a-0a68-4fdc-a47c-80ec61f6a217))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5516,7 +5534,7 @@
     (property "Datasheet" "" (at 20.955 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3916962c-3268-4d95-989a-9fa2be8f392c))
+    (pin "1" (uuid 52fe1838-c27d-47d0-9067-672eca301f0d))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5541,7 +5559,7 @@
     (property "Datasheet" "" (at 189.23 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a4dfb998-938b-4343-99e2-5e8aa1587aae))
+    (pin "1" (uuid 61645719-687a-44eb-9735-eb51b30cc694))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5566,8 +5584,8 @@
     (property "Datasheet" "~" (at 147.955 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aaa18a6e-f9da-4ca3-ad89-57f27d5c7d2c))
-    (pin "2" (uuid bd4c11e4-e73c-456b-9dd5-d98300ded464))
+    (pin "1" (uuid 21ed82d9-bc05-469b-a4f2-c3bf0c03c4f7))
+    (pin "2" (uuid fd2aa578-1fd4-43b7-b5e9-7bf1bcf22be3))
     (instances
       (project "smoke-machine"
         (path "/efeac2a2-7682-4dc7-83ee-f6f1b23da506"
@@ -5597,7 +5615,7 @@
     (property "Datasheet" "" (at 235.585 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 25748d94-9b0b-466a-b445-859a8966b6fc))
+    (pin "1" (uuid 37e80673-77d0-4c1d-a49a-5e7de427c0da))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5622,8 +5640,8 @@
     (property "Datasheet" "~" (at 26.67 182.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 531142c7-badc-4518-a27c-97877b9e7dd0))
-    (pin "2" (uuid 33682bab-b4cb-42cc-8cc8-8261d83438de))
+    (pin "1" (uuid 7d719503-9cad-4daf-aa01-51d033e40cc7))
+    (pin "2" (uuid 8587b400-34e2-4976-a5a3-9196248be6cb))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5648,8 +5666,8 @@
     (property "Datasheet" "~" (at 59.69 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1e6be938-5c71-4458-9d3a-79536c3eddeb))
-    (pin "2" (uuid afcc80b4-89ad-4f14-87be-71ab202826cd))
+    (pin "1" (uuid 87d65ce8-4f84-4701-ad99-671e2085cd19))
+    (pin "2" (uuid cdc30174-f6b1-469f-8554-1cfcf677df2f))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
@@ -5674,20 +5692,20 @@
     (property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf" (at 85.09 182.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a195ce2b-3fef-4e92-a103-f7175067cac1))
-    (pin "2" (uuid a689bdec-9818-4ed4-acb5-93de7f1add03))
-    (pin "3" (uuid 583d3723-9cf1-45f7-b8d1-dc76fe71fb5d))
-    (pin "4" (uuid cdde904d-ec55-47ef-b232-e21d88c121ac))
-    (pin "5" (uuid 8f263f1f-309b-4813-8d3b-81a51d9c162d))
-    (pin "6" (uuid 1d62c451-c10e-485a-98e7-5a5b18bfe504))
-    (pin "8" (uuid 83f38895-9639-4f14-8a6a-77a2d71331ce))
-    (pin "9" (uuid 5bc6e38d-790a-4243-b45a-ea9cd446055b))
-    (pin "10" (uuid c97019cb-b9d6-4e21-87c9-86a6b3b30f14))
-    (pin "11" (uuid d9933603-ed87-44de-b416-e661c0c5397d))
-    (pin "12" (uuid e436b853-4c16-4e99-a693-3750db0b1e90))
-    (pin "13" (uuid 16667541-c60b-463c-ae2c-4fc5ca1cae59))
-    (pin "14" (uuid 86b6b480-69d4-415f-9463-e238fa4852ef))
-    (pin "7" (uuid 44af5f16-d5ce-484e-91b6-0c0a0b96ce5f))
+    (pin "1" (uuid 8cf1050c-8b05-4e69-be78-5e2c377b02d5))
+    (pin "2" (uuid f91a43e1-0a66-40cf-b03a-f51cbd97d70c))
+    (pin "3" (uuid 35f794b6-6660-4afe-b51c-fd6e74e7637d))
+    (pin "4" (uuid 38530789-5fc3-409b-bd90-dbc627611250))
+    (pin "5" (uuid 1d26ef5c-6141-4e73-86cf-88303c3c695a))
+    (pin "6" (uuid b1e5c91a-3283-49ae-bc88-875d9d33458e))
+    (pin "8" (uuid ee1ff1f6-34d5-4184-b79f-6b34da0479ca))
+    (pin "9" (uuid 23585819-6eeb-419d-81c5-54507454c89a))
+    (pin "10" (uuid cfea08ef-6757-49a6-9133-0b4e7727a28c))
+    (pin "11" (uuid e6f3042e-a372-4cdd-8cbd-6cb2b93b6cec))
+    (pin "12" (uuid 8b98690b-ba3c-4389-a652-17009709617c))
+    (pin "13" (uuid 4ee73bc6-a6de-4018-8235-b26e2243d9fe))
+    (pin "14" (uuid 7deea8b3-20aa-4d75-9de2-5d283fe4e6da))
+    (pin "7" (uuid 29e9fb8e-e5ba-4b4d-85c1-3df7373ec9c6))
     (instances
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
