@@ -1,0 +1,103 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "BYV32E-200" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0.76219 2.0071 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "BYV32E-200" (id 1) (at -4.82722 -3.45527 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "BYV32E-200:TO220" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "WeEn Semiconductors" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\nDiode Array 1 Pair Common Cathode Standard 200 V 10A Through Hole TO-220-3\n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "TO-220 WeEn Semiconductors" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/BYV32E-200/WeEn+Semiconductors/view-part/?ref=snap" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "BYV32E-200" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/BYV32E-200/WeEn+Semiconductors/view-part/?ref=eda" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "BYV32E-200_0_0"
+      (polyline
+        (pts (xy -2.71 0.0) (xy -1.016 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.016 0.0) (xy 1.016 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.016 0.0) (xy 2.71 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.556 -1.27) (xy -1.016 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.016 0.0) (xy -3.556 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.016 1.27) (xy -1.016 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.016 0.0) (xy -1.016 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.556 1.27) (xy 1.016 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.016 0.0) (xy 3.556 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.016 -1.27) (xy 1.016 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.016 0.0) (xy 1.016 1.27)) (stroke (width 0.254))
+      )
+      (circle (center 0.0 0.0) (radius 0.127)
+        (stroke (width 0.4064)) (fill (type none))
+      )
+      (rectangle (start -3.556 -1.27) (end 3.556 1.27)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -5.08 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 5.08 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 2.54 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
