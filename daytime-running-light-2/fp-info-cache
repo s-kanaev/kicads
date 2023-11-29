@@ -1,0 +1,141 @@
+33339014467409
+LIB
+BU941ZPFI
+
+
+0
+3
+3
+LIB
+DIP254P762X420-14
+
+
+0
+14
+14
+LIB
+DIP762W45P254L1092H508Q8
+
+
+0
+8
+8
+LIB
+DIP794W45P254L959H508Q8
+
+
+0
+8
+8
+LIB
+DIP794W45P254L1969H508Q16
+
+
+0
+16
+16
+LIB
+MEANWELL_LDB-350L
+
+
+0
+9
+9
+LIB
+Relay-DIP-12_W7.62mm
+12-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+6
+6
+LIB
+SO-8_3.9x4.9mm_P1.27mm
+SO, 8 Pin (https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SO SO
+0
+8
+3
+LIB
+SOIC127P599X175-8N
+
+
+0
+8
+8
+LIB
+SolderWirePad_1x03_P7.62mm_Drill2.5mm
+Wire solder connection
+connector
+0
+3
+3
+LIB
+SolderWirePad_1x05_P3.81mm_Drill1mm
+Wire solder connection
+connector
+0
+5
+5
+LIB
+TO-92_HandSolder2
+TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+LIB
+TO-220-3-4_Horizontal_TabDown
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+4
+4
+LIB
+TO-220-3_Horizontal_TabDown-mod
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+3
+3
+LIB
+TO-220-3_Horizontal_TabDown-mod2
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+3
+3
+LIB
+TO-220-3_Vertical-mod
+TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Vertical RM 2.54mm
+0
+3
+3
+LIB
+TO-220-3_Vertical-mod2
+TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Vertical RM 2.54mm
+0
+3
+3
+LIB
+TO-220-3_Vertical-mod3
+TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Vertical RM 2.54mm
+0
+3
+3
+LIB
+TO220
+<b>TO 220 horizontal</b>
+
+0
+3
+3
+LIB
+TO254P1016X419X2286-3
+
+
+0
+3
+3
