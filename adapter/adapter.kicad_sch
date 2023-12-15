@@ -1247,7 +1247,7 @@
     (property "Value" "TLC555xP" (at 202.2191 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DIP:DIP-8_W7.62mm" (at 216.535 153.035 0)
+    (property "Footprint" "Package_DIP:DIP-8_W10.16mm" (at 216.535 153.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlc555.pdf" (at 221.615 153.035 0)
