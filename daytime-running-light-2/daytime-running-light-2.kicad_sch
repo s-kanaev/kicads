@@ -700,6 +700,65 @@
         )
       )
     )
+    (symbol "Device:C_Polarized" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C_Polarized" (at 0.635 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0.9652 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Polarized capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "CP_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_Polarized_0_1"
+        (rectangle (start -2.286 0.508) (end 2.286 1.016)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 2.286)
+            (xy -0.762 2.286)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 2.794)
+            (xy -1.27 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 2.286 -0.508) (end -2.286 -1.016)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+      )
+      (symbol "C_Polarized_1_1"
+        (pin passive line (at 0 3.81 270) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -1977,6 +2036,46 @@
         )
       )
     )
+    (symbol "power:GND3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND3" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND3\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND3_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND3_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -2092,11 +2191,11 @@
   (junction (at 247.65 53.34) (diameter 0) (color 0 0 0 0)
     (uuid 11456ab4-a239-4267-bee8-1e1728e2083c)
   )
+  (junction (at 142.875 75.565) (diameter 0) (color 0 0 0 0)
+    (uuid 17474238-5de9-439b-a55f-3f412ee13e86)
+  )
   (junction (at 32.385 153.67) (diameter 0) (color 0 0 0 0)
     (uuid 1ad9caac-0ab1-4e22-ae6f-c5fc4be5468a)
-  )
-  (junction (at 46.99 107.315) (diameter 0) (color 0 0 0 0)
-    (uuid 202dc712-a125-42f6-822e-a3783df572ee)
   )
   (junction (at 47.625 180.34) (diameter 0) (color 0 0 0 0)
     (uuid 288331c5-aa6e-429b-9f3b-cebbba813bee)
@@ -2107,14 +2206,14 @@
   (junction (at 194.31 53.34) (diameter 0) (color 0 0 0 0)
     (uuid 2d4c9a33-12e0-4c10-afd2-c13b01513159)
   )
+  (junction (at 142.875 83.185) (diameter 0) (color 0 0 0 0)
+    (uuid 2e9fce6a-6fd3-478b-a27d-1f0b45e5c190)
+  )
   (junction (at 222.885 29.845) (diameter 0) (color 0 0 0 0)
     (uuid 37a61346-47d2-4d5d-948d-fd6f69db7fc9)
   )
   (junction (at 120.65 166.37) (diameter 0) (color 0 0 0 0)
     (uuid 4610c38a-2dca-430d-90f5-bb4427ab98e4)
-  )
-  (junction (at 56.515 116.84) (diameter 0) (color 0 0 0 0)
-    (uuid 46329edb-f117-4369-ac05-f57bcc438ef8)
   )
   (junction (at 247.015 29.845) (diameter 0) (color 0 0 0 0)
     (uuid 47317fd4-c3fb-455d-98c7-ae1fda1f1bfc)
@@ -2140,6 +2239,9 @@
   (junction (at 60.325 153.67) (diameter 0) (color 0 0 0 0)
     (uuid 8b3b491d-1029-4a35-944f-fddc41fae959)
   )
+  (junction (at 160.655 75.565) (diameter 0) (color 0 0 0 0)
+    (uuid 99c4e629-3130-4368-abc6-4b2cf1234501)
+  )
   (junction (at 236.22 62.23) (diameter 0) (color 0 0 0 0)
     (uuid 9b23ec36-802f-401a-a0ec-32758e5e6556)
   )
@@ -2152,11 +2254,17 @@
   (junction (at 21.59 41.275) (diameter 0) (color 0 0 0 0)
     (uuid b8142f04-28b5-4b7f-b8a5-1a2b730afc6b)
   )
+  (junction (at 130.175 75.565) (diameter 0) (color 0 0 0 0)
+    (uuid c516edd8-c394-4eb0-99cb-0d01e8132f29)
+  )
   (junction (at 73.025 117.475) (diameter 0) (color 0 0 0 0)
     (uuid c7c91241-0d36-4d86-af81-cf70203ef90a)
   )
   (junction (at 138.43 168.91) (diameter 0) (color 0 0 0 0)
     (uuid d134e96b-5c8a-4327-80f9-4a419704b32b)
+  )
+  (junction (at 139.7 97.155) (diameter 0) (color 0 0 0 0)
+    (uuid d1dd60b6-5efd-4a02-8c91-5e0331a38375)
   )
   (junction (at 235.585 38.735) (diameter 0) (color 0 0 0 0)
     (uuid d6397d74-d601-48ac-a03f-648479838ddc)
@@ -2164,8 +2272,17 @@
   (junction (at 135.89 24.765) (diameter 0) (color 0 0 0 0)
     (uuid dd604430-a4d1-4e6e-9666-7cc0d115d532)
   )
+  (junction (at 73.025 124.46) (diameter 0) (color 0 0 0 0)
+    (uuid ec946957-48cf-4608-ad7d-d99ca8eff268)
+  )
+  (junction (at 145.415 104.775) (diameter 0) (color 0 0 0 0)
+    (uuid f264b655-a4d0-4106-9509-ad18d80e8ebb)
+  )
   (junction (at 135.89 37.465) (diameter 0) (color 0 0 0 0)
     (uuid f5e9e32f-1a2d-499d-aa3d-9364176c3cc4)
+  )
+  (junction (at 151.13 97.155) (diameter 0) (color 0 0 0 0)
+    (uuid fd261729-cd2d-480a-8c24-2bcfab223092)
   )
 
   (no_connect (at 255.905 153.67) (uuid 1c5ac91d-bf1a-4c8b-a3b2-52f7f3d4f9b0))
@@ -2225,6 +2342,14 @@
     (stroke (width 0) (type default))
     (uuid 25506207-5ef5-424a-841b-a8697b573c83)
   )
+  (wire (pts (xy 158.115 75.565) (xy 160.655 75.565))
+    (stroke (width 0) (type default))
+    (uuid 25576200-1cde-417a-b47b-06375a2c5133)
+  )
+  (wire (pts (xy 139.7 97.155) (xy 151.13 97.155))
+    (stroke (width 0) (type default))
+    (uuid 25783cf8-9e68-46d3-8d1f-3c8fed4a6015)
+  )
   (wire (pts (xy 60.325 153.67) (xy 61.595 153.67))
     (stroke (width 0) (type default))
     (uuid 2652f4ad-d0a5-419d-b261-0dd3e7bbd86e)
@@ -2237,9 +2362,9 @@
     (stroke (width 0) (type default))
     (uuid 272e557f-6d6b-42f9-ab51-43514fcbc3d3)
   )
-  (wire (pts (xy 56.515 116.84) (xy 56.515 107.315))
+  (wire (pts (xy 151.13 97.155) (xy 158.115 97.155))
     (stroke (width 0) (type default))
-    (uuid 272f0115-39d2-41f0-8e8e-7850777aaf0a)
+    (uuid 2a756f44-8ac4-45ce-9ab7-3119673172dc)
   )
   (wire (pts (xy 47.625 180.34) (xy 50.165 180.34))
     (stroke (width 0) (type default))
@@ -2253,6 +2378,10 @@
     (stroke (width 0) (type default))
     (uuid 321b18d7-17d4-49ba-9197-4fed8179e8b3)
   )
+  (wire (pts (xy 105.41 97.155) (xy 120.015 97.155))
+    (stroke (width 0) (type default))
+    (uuid 326f2cbc-9a6c-401d-a418-dd8c429a0c64)
+  )
   (wire (pts (xy 220.345 78.105) (xy 200.66 78.105))
     (stroke (width 0) (type default))
     (uuid 3734b3f5-4b33-4fd4-ba08-f3ac5e7d2e02)
@@ -2264,6 +2393,10 @@
   (wire (pts (xy 205.74 53.34) (xy 215.265 53.34))
     (stroke (width 0) (type default))
     (uuid 39638ad6-460b-4cdb-9e98-75d87fed92a6)
+  )
+  (wire (pts (xy 17.78 122.555) (xy 29.845 122.555))
+    (stroke (width 0) (type default))
+    (uuid 39ddddc2-823b-4c35-9ea9-8c5ee9db4fc0)
   )
   (wire (pts (xy 29.845 96.52) (xy 29.845 107.315))
     (stroke (width 0) (type default))
@@ -2284,10 +2417,6 @@
   (wire (pts (xy 222.885 29.845) (xy 227.965 29.845))
     (stroke (width 0) (type default))
     (uuid 3f198acb-8ca4-4227-b22e-31f5efbddd55)
-  )
-  (wire (pts (xy 46.99 107.315) (xy 48.895 107.315))
-    (stroke (width 0) (type default))
-    (uuid 3f725a04-a585-4351-951b-8a9ec95fbc0d)
   )
   (wire (pts (xy 270.51 100.965) (xy 270.51 92.075))
     (stroke (width 0) (type default))
@@ -2373,6 +2502,10 @@
     (stroke (width 0) (type default))
     (uuid 605f3ecc-09be-4d3a-b1e7-654b43184286)
   )
+  (wire (pts (xy 48.895 86.36) (xy 48.895 99.695))
+    (stroke (width 0) (type default))
+    (uuid 65d91051-9e14-4258-b3cd-5f4ca0e0bf33)
+  )
   (wire (pts (xy 21.59 41.275) (xy 21.59 44.45))
     (stroke (width 0) (type default))
     (uuid 661d5f1c-8c40-4288-aeb3-d2dac9a9165d)
@@ -2393,6 +2526,10 @@
     (stroke (width 0) (type default))
     (uuid 6b925fc7-1f85-489c-a010-a16b16ffcd49)
   )
+  (wire (pts (xy 142.875 75.565) (xy 150.495 75.565))
+    (stroke (width 0) (type default))
+    (uuid 6c7abf23-38a6-48ca-a65f-a925f7c48dfc)
+  )
   (wire (pts (xy 40.005 31.115) (xy 43.815 31.115))
     (stroke (width 0) (type default))
     (uuid 6e980ab0-6f09-4bc9-beaa-2e478d008197)
@@ -2408,6 +2545,10 @@
   (wire (pts (xy 247.015 29.845) (xy 247.015 31.115))
     (stroke (width 0) (type default))
     (uuid 6f0e7f5c-58d8-4db6-b42b-3e576d5da0cf)
+  )
+  (wire (pts (xy 140.97 75.565) (xy 142.875 75.565))
+    (stroke (width 0) (type default))
+    (uuid 6f4166e6-3146-42c2-9451-356985804517)
   )
   (wire (pts (xy 71.755 41.275) (xy 71.755 53.975))
     (stroke (width 0) (type default))
@@ -2441,9 +2582,9 @@
     (stroke (width 0) (type default))
     (uuid 7f76c628-3e63-434f-b770-e2ad2903912b)
   )
-  (wire (pts (xy 35.56 95.885) (xy 39.37 95.885))
+  (wire (pts (xy 56.515 117.475) (xy 73.025 117.475))
     (stroke (width 0) (type default))
-    (uuid 80adddda-96b1-471a-a800-c07fc4d9a657)
+    (uuid 7fca25cd-3ee7-4949-84c1-69d910317246)
   )
   (wire (pts (xy 135.89 168.91) (xy 138.43 168.91))
     (stroke (width 0) (type default))
@@ -2460,6 +2601,10 @@
   (wire (pts (xy 98.425 172.72) (xy 98.425 171.45))
     (stroke (width 0) (type default))
     (uuid 86541cf0-58e3-41a3-aa08-3ff7c1e0dda3)
+  )
+  (wire (pts (xy 137.16 97.155) (xy 139.7 97.155))
+    (stroke (width 0) (type default))
+    (uuid 88ea4dae-a3f3-4c0f-b931-a34ef30792da)
   )
   (wire (pts (xy 270.51 108.585) (xy 270.51 109.855))
     (stroke (width 0) (type default))
@@ -2497,17 +2642,13 @@
     (stroke (width 0) (type default))
     (uuid 99a48343-3437-4032-a797-4dc2f131cc35)
   )
-  (wire (pts (xy 45.085 107.315) (xy 46.99 107.315))
+  (wire (pts (xy 120.015 75.565) (xy 122.555 75.565))
     (stroke (width 0) (type default))
-    (uuid 9af0f2aa-19d4-4a79-9212-03823aadfc63)
+    (uuid 99c5fdb1-c3de-464f-9eb0-cd4f8179dd02)
   )
   (wire (pts (xy 95.25 110.49) (xy 95.25 117.475))
     (stroke (width 0) (type default))
     (uuid 9b272f22-1cd0-4b79-a061-3505cbdcecbc)
-  )
-  (wire (pts (xy 56.515 117.475) (xy 73.025 117.475))
-    (stroke (width 0) (type default))
-    (uuid 9d82bb37-e48f-40d9-a5f2-943636505bb3)
   )
   (wire (pts (xy 31.115 180.34) (xy 32.385 180.34))
     (stroke (width 0) (type default))
@@ -2525,6 +2666,10 @@
     (stroke (width 0) (type default))
     (uuid a252c9ef-d04c-4f13-87d4-4436c6379b0d)
   )
+  (wire (pts (xy 145.415 104.775) (xy 151.13 104.775))
+    (stroke (width 0) (type default))
+    (uuid a4b52bc1-f6e9-4a14-96b5-d512f90ee17e)
+  )
   (wire (pts (xy 73.025 97.155) (xy 73.025 104.775))
     (stroke (width 0) (type default))
     (uuid a61423b0-e9c8-4dd5-8e98-a03eda81e578)
@@ -2532,6 +2677,10 @@
   (wire (pts (xy 236.22 60.96) (xy 236.22 62.23))
     (stroke (width 0) (type default))
     (uuid a957459c-e0a9-42a9-94c0-9825fc59eca3)
+  )
+  (wire (pts (xy 127.635 97.155) (xy 129.54 97.155))
+    (stroke (width 0) (type default))
+    (uuid aa0fdf06-4a6e-48c6-9002-20934f468940)
   )
   (wire (pts (xy 71.755 66.675) (xy 71.755 61.595))
     (stroke (width 0) (type default))
@@ -2557,10 +2706,6 @@
     (stroke (width 0) (type default))
     (uuid b2094f52-6085-467d-aae0-c57ed253a4aa)
   )
-  (wire (pts (xy 52.705 124.46) (xy 73.025 124.46))
-    (stroke (width 0) (type default))
-    (uuid b37995eb-2c28-446a-a314-6eb72afd600e)
-  )
   (wire (pts (xy 161.925 26.67) (xy 158.115 26.67))
     (stroke (width 0) (type default))
     (uuid b424280b-fe90-47b8-8531-3f5571a861f3)
@@ -2580,10 +2725,6 @@
   (wire (pts (xy 247.65 49.53) (xy 247.65 53.34))
     (stroke (width 0) (type default))
     (uuid b89e8c76-909f-4e2e-bc05-1e0af35c052a)
-  )
-  (wire (pts (xy 22.86 122.555) (xy 29.845 122.555))
-    (stroke (width 0) (type default))
-    (uuid b9303d00-d77f-4466-970c-07ca37641918)
   )
   (wire (pts (xy 45.085 116.84) (xy 56.515 116.84))
     (stroke (width 0) (type default))
@@ -2613,6 +2754,10 @@
     (stroke (width 0) (type default))
     (uuid c1dfcae1-df99-43fd-8854-dc7f0fe9b961)
   )
+  (wire (pts (xy 142.875 83.185) (xy 160.655 83.185))
+    (stroke (width 0) (type default))
+    (uuid c3163b2e-f361-40df-bb3b-70b452c580fa)
+  )
   (wire (pts (xy 155.575 153.035) (xy 158.115 153.035))
     (stroke (width 0) (type default))
     (uuid c4474860-e8d5-4cde-9020-3952369815e3)
@@ -2632,6 +2777,10 @@
   (wire (pts (xy 158.115 49.53) (xy 158.115 48.26))
     (stroke (width 0) (type default))
     (uuid cab475f9-051b-47df-91f2-081aec545c96)
+  )
+  (wire (pts (xy 46.355 124.46) (xy 73.025 124.46))
+    (stroke (width 0) (type default))
+    (uuid cddd72cc-a5f5-43b6-86f3-5511d9498dec)
   )
   (wire (pts (xy 158.115 52.07) (xy 158.115 53.975))
     (stroke (width 0) (type default))
@@ -2665,6 +2814,10 @@
     (stroke (width 0) (type default))
     (uuid d6c4c94a-28b6-46b7-b6f5-68dd2bbc5e72)
   )
+  (wire (pts (xy 45.085 107.315) (xy 48.895 107.315))
+    (stroke (width 0) (type default))
+    (uuid d6c9cfb3-c932-4509-a658-3e38c4abb721)
+  )
   (wire (pts (xy 222.885 29.845) (xy 222.885 31.115))
     (stroke (width 0) (type default))
     (uuid d7bf7316-3381-4363-bc70-94508151ac7b)
@@ -2677,6 +2830,10 @@
     (stroke (width 0) (type default))
     (uuid de8a6f6b-06a9-42fc-8ecf-309edec8ad30)
   )
+  (wire (pts (xy 120.015 83.185) (xy 130.175 83.185))
+    (stroke (width 0) (type default))
+    (uuid df818e74-af61-405c-b71d-7864aac01c6e)
+  )
   (wire (pts (xy 56.515 23.495) (xy 56.515 26.035))
     (stroke (width 0) (type default))
     (uuid e353d251-0ebe-4580-8c90-bec934fc6ffe)
@@ -2684,10 +2841,6 @@
   (wire (pts (xy 229.235 101.6) (xy 229.235 92.71))
     (stroke (width 0) (type default))
     (uuid e4a4c815-cabf-4dc8-9c6b-1cc0ad9c7089)
-  )
-  (wire (pts (xy 46.99 107.315) (xy 46.99 95.885))
-    (stroke (width 0) (type default))
-    (uuid e4e98588-bea1-42ff-9315-b2666f33c41c)
   )
   (wire (pts (xy 176.53 134.62) (xy 193.675 134.62))
     (stroke (width 0) (type default))
@@ -2721,6 +2874,14 @@
     (stroke (width 0) (type default))
     (uuid eb0f4add-4fe6-40c3-85ad-b13c6b42753b)
   )
+  (wire (pts (xy 139.7 104.775) (xy 145.415 104.775))
+    (stroke (width 0) (type default))
+    (uuid ed4cb6cb-eb4e-4d1a-a5f3-eeb4c64a36c9)
+  )
+  (wire (pts (xy 130.175 75.565) (xy 133.35 75.565))
+    (stroke (width 0) (type default))
+    (uuid f0570b1f-78c9-40cb-8d6d-1edee2e75e5c)
+  )
   (wire (pts (xy 76.835 153.67) (xy 78.105 153.67))
     (stroke (width 0) (type default))
     (uuid f39f33c9-3dd2-42c5-9a66-2eff3406bef3)
@@ -2729,6 +2890,10 @@
     (stroke (width 0) (type default))
     (uuid f8a2e7e7-985a-42a2-b362-c485503054f4)
   )
+  (wire (pts (xy 160.655 75.565) (xy 172.085 75.565))
+    (stroke (width 0) (type default))
+    (uuid fa17ed88-52df-4fd2-b2c6-261b651f279c)
+  )
   (wire (pts (xy 47.625 153.67) (xy 50.165 153.67))
     (stroke (width 0) (type default))
     (uuid fa99742f-3bdb-4a68-a268-557918f9a5ea)
@@ -2736,6 +2901,12 @@
   (wire (pts (xy 94.615 31.115) (xy 94.615 32.385))
     (stroke (width 0) (type default))
     (uuid fc39041d-b99c-4545-a900-5cf80f38139c)
+  )
+
+  (text "J6 pin voltage:\n - logical low - allow PWM circuitry power on\n - logical high - disallow PWM circuitry power on\n\nGND3 isn't really a ground connection."
+    (at 180.34 161.925 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ea1c3412-3da5-4de8-9a01-ad5db3517497)
   )
 
   (label "VCC_STAB2" (at 257.81 53.34 180) (fields_autoplaced)
@@ -2754,9 +2925,17 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2a2fb353-1a9b-4a74-b8e4-b86aa3cc3148)
   )
-  (label "POWER_OUTPUT" (at 52.705 124.46 0) (fields_autoplaced)
+  (label "PWM" (at 120.015 83.185 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 30eeff17-e2bf-48f7-a6c0-d20b493e4444)
+  )
+  (label "POWER_OUTPUT" (at 46.355 124.46 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3ae396a3-6625-42f9-87c1-99d44b28bfce)
+  )
+  (label "DOUBLED_VCC2" (at 172.085 75.565 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 49eb53fd-675a-4256-ac80-5c178d620507)
   )
   (label "ALLOW_POWER_ON" (at 201.295 78.105 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2774,7 +2953,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 604ae82f-7a92-425e-aacb-6cae15530935)
   )
-  (label "PWM" (at 22.86 122.555 0) (fields_autoplaced)
+  (label "PWM" (at 17.78 122.555 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 924d9da9-67a8-497a-ba7f-2066e4fd7cbd)
   )
@@ -2786,13 +2965,57 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ac542694-898e-4ba4-aaea-e9ec9f33feca)
   )
+  (label "DOUBLED_VCC2" (at 105.41 97.155 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b47f62fa-63b8-4181-ab93-8ace96f39a99)
+  )
   (label "PWM" (at 114.935 31.115 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ddda81de-5515-4547-8f87-3f8fa7b34437)
   )
+  (label "V_BOOTSTRAP" (at 158.115 97.155 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid de871f2c-c970-4e4b-9e8a-75fcaf406c6a)
+  )
+  (label "V_BOOTSTRAP" (at 48.895 86.36 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid f7aab372-484e-4356-86ed-42d57e20a61d)
+  )
   (label "U1_DISCH" (at 94.615 84.455 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fbdaa5e5-8be3-4156-a229-49664545649b)
+  )
+
+  (symbol (lib_id "Diode:1N4148") (at 123.825 97.155 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 003583ca-a60e-4dbb-92cd-1f412de2f450)
+    (property "Reference" "D5" (at 123.825 90.805 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1N4148" (at 123.825 93.345 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" (at 123.825 97.155 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 123.825 97.155 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Device" "D" (at 123.825 97.155 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 123.825 97.155 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 283b15d8-da51-4c08-a15f-84cde1d51ce1))
+    (pin "1" (uuid 511b209a-5fa9-4235-99ee-4599415b4fa0))
+    (instances
+      (project "daytime-running-light-2"
+        (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
+          (reference "D5") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "4xxx:4069") (at 248.92 139.7 0) (unit 2)
@@ -2903,7 +3126,7 @@
   (symbol (lib_id "power:+BATT") (at 158.115 24.765 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0482d6ce-291a-4665-950b-7178f2e829b9)
-    (property "Reference" "#PWR01" (at 158.115 28.575 0)
+    (property "Reference" "#PWR03" (at 158.115 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 158.115 20.32 0)
@@ -2919,7 +3142,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2928,7 +3151,7 @@
   (symbol (lib_id "Device:R") (at 151.765 153.035 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06dc7f73-c42c-4f4b-a5e5-616e8b07e790)
-    (property "Reference" "R4" (at 151.765 147.32 90)
+    (property "Reference" "R6" (at 151.765 147.32 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 151.765 149.86 90)
@@ -2945,7 +3168,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "R4") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -2956,35 +3179,10 @@
     )
   )
 
-  (symbol (lib_id "batt2:+BATT2") (at 35.56 95.885 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 06fdd4db-21d2-485c-88c4-685c586356fd)
-    (property "Reference" "#PWR07" (at 35.56 99.695 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+BATT2" (at 35.56 91.44 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 35.56 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 35.56 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 897e335a-852c-4e09-888f-bf22277efcac))
-    (instances
-      (project "daytime-running-light-2"
-        (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR07") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "batt2:+BATT2") (at 190.5 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07e6e1d3-0efc-4dcf-980a-1c21051778b9)
-    (property "Reference" "#PWR038" (at 190.5 53.34 0)
+    (property "Reference" "#PWR011" (at 190.5 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT2" (at 190.5 45.085 0)
@@ -3000,7 +3198,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3009,7 +3207,7 @@
   (symbol (lib_id "power:GND") (at 255.27 118.745 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0822a874-ccb9-4420-b069-60765308103d)
-    (property "Reference" "#PWR018" (at 255.27 125.095 0)
+    (property "Reference" "#PWR030" (at 255.27 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 255.27 123.825 0)
@@ -3025,7 +3223,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -3039,7 +3237,7 @@
   (symbol (lib_id "Device:C") (at 229.235 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ac8933e-e79f-4ee1-816d-8758d949421d)
-    (property "Reference" "C9" (at 233.045 104.14 0)
+    (property "Reference" "C13" (at 233.045 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 233.045 106.68 0)
@@ -3056,7 +3254,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "C9") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -3070,7 +3268,7 @@
   (symbol (lib_id "Diode:1N47xxA") (at 32.385 158.75 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b4d8b01-61e4-4b2b-8617-955da91646ca)
-    (property "Reference" "D6" (at 34.925 157.48 90)
+    (property "Reference" "D9" (at 34.925 157.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N47xxA" (at 34.925 160.02 90)
@@ -3087,7 +3285,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "D6") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -3101,7 +3299,7 @@
   (symbol (lib_id "vcc2:VCC2") (at 247.65 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1235beaf-3f23-41c7-8b0d-0fa444fb1f51)
-    (property "Reference" "#PWR013" (at 247.65 53.34 0)
+    (property "Reference" "#PWR012" (at 247.65 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC2" (at 247.65 44.45 0)
@@ -3117,7 +3315,33 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Diode:BAT42") (at 126.365 75.565 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 125ea249-90e3-49d3-9158-0a932e85ee38)
+    (property "Reference" "D2" (at 126.6825 69.85 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "BAT42" (at 126.6825 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp" (at 126.365 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf" (at 126.365 75.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid c72b14f6-340e-46e9-a8d2-db47f08c99a1))
+    (pin "1" (uuid 9590dee0-9a99-4b6a-bb2a-b612a0a427c6))
+    (instances
+      (project "daytime-running-light-2"
+        (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -3202,6 +3426,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C_Polarized") (at 142.875 79.375 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 24eca2d9-7194-4ed7-b89e-0c9433c223f0)
+    (property "Reference" "C9" (at 146.685 77.216 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1uF" (at 146.685 79.756 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 143.8402 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 142.875 79.375 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 31b91cd2-b90b-42ab-8cac-2604441c6706))
+    (pin "2" (uuid 2424d1ee-60f9-4fc1-b83b-43dea4e64a39))
+    (instances
+      (project "daytime-running-light-2"
+        (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
+          (reference "C9") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:VCC") (at 158.115 153.035 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 256ebe2c-4ab7-4afc-9d90-b590f908af36)
@@ -3235,7 +3485,7 @@
   (symbol (lib_id "power:GND") (at 32.385 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25b181e8-419b-4af5-8a2f-0c56667b2af8)
-    (property "Reference" "#PWR025" (at 32.385 168.91 0)
+    (property "Reference" "#PWR039" (at 32.385 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 32.385 167.64 0)
@@ -3251,7 +3501,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -3325,41 +3575,10 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 52.705 107.315 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2dfe1323-3362-439a-a955-5eaf65033c99)
-    (property "Reference" "C10" (at 52.705 99.695 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "C" (at 52.705 102.235 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" (at 56.515 106.3498 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 52.705 107.315 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dd4e82bd-8d5d-4978-9991-0ffc9645e75c))
-    (pin "2" (uuid bf6de50c-030b-47b0-a5d0-b448c4bd09d1))
-    (instances
-      (project "daytime-running-light-2"
-        (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "C10") (unit 1)
-        )
-      )
-      (project "soft-start2"
-        (path "/ebfa1560-6bfd-4c13-8584-dcc8e4637497"
-          (reference "C9") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 235.585 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ecd876b-00eb-4ba1-bd86-e8dd203d4d0f)
-    (property "Reference" "#PWR05" (at 235.585 46.355 0)
+    (property "Reference" "#PWR09" (at 235.585 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 235.585 45.085 0)
@@ -3375,7 +3594,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -3386,38 +3605,52 @@
     )
   )
 
-  (symbol (lib_id "Diode:1N4148") (at 43.18 95.885 180) (unit 1)
+  (symbol (lib_id "batt2:+BATT2") (at 120.015 75.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 32235b21-e2db-4589-9827-cea9ab10f63b)
-    (property "Reference" "D2" (at 43.18 89.535 0)
+    (uuid 30029958-785b-47be-b455-8becc78b4483)
+    (property "Reference" "#PWR018" (at 120.015 79.375 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+BATT2" (at 120.015 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1N4148" (at 43.18 92.075 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp" (at 43.18 95.885 0)
+    (property "Footprint" "" (at 120.015 75.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" (at 43.18 95.885 0)
+    (property "Datasheet" "" (at 120.015 75.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Device" "D" (at 43.18 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 43.18 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 70b64493-9c62-4e51-a264-2fe459bdb9ed))
-    (pin "2" (uuid 4685a36f-876c-4c7b-aff0-e038112c27c1))
+    (pin "1" (uuid 488798b0-5204-40c4-8bfb-7ca3b1563d6a))
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "D2") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
-      (project "soft-start2"
-        (path "/ebfa1560-6bfd-4c13-8584-dcc8e4637497"
-          (reference "D2") (unit 1)
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 151.13 100.965 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 30b71fd2-7834-4b91-abf6-c510c0cc205c)
+    (property "Reference" "C11" (at 154.94 99.695 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100nF" (at 154.94 102.235 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" (at 152.0952 104.775 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 151.13 100.965 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 904dd6a7-3c5a-4c59-99cf-27aaa6ccff94))
+    (pin "1" (uuid 9e65bafe-faa4-4d67-9414-007e251aeef1))
+    (instances
+      (project "daytime-running-light-2"
+        (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -3426,7 +3659,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Socket") (at 14.605 148.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 329f0ac0-ddaa-4b40-8ad9-1bc8c5c40402)
-    (property "Reference" "J5" (at 15.875 147.955 90)
+    (property "Reference" "J7" (at 15.875 147.955 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x01_Socket" (at 15.875 150.495 90)
@@ -3442,7 +3675,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "J5") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -3456,7 +3689,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Socket") (at 14.605 175.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3bdf23be-5e7a-4f4f-bde1-c4259de7afaf)
-    (property "Reference" "J7" (at 15.875 174.625 90)
+    (property "Reference" "J9" (at 15.875 174.625 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x01_Socket" (at 15.875 177.165 90)
@@ -3472,7 +3705,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "J7") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -3486,7 +3719,7 @@
   (symbol (lib_id "vcc2:VCC2") (at 21.59 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e68e746-94df-4e99-98bf-a673e35a1bc1)
-    (property "Reference" "#PWR039" (at 21.59 34.29 0)
+    (property "Reference" "#PWR06" (at 21.59 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC2" (at 21.59 25.4 0)
@@ -3502,7 +3735,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3511,7 +3744,7 @@
   (symbol (lib_id "power:GND") (at 47.625 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 407a5671-0a27-418c-bf1d-e4e49280f675)
-    (property "Reference" "#PWR030" (at 47.625 195.58 0)
+    (property "Reference" "#PWR044" (at 47.625 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 47.625 194.31 0)
@@ -3527,7 +3760,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -3602,10 +3835,35 @@
     )
   )
 
+  (symbol (lib_id "power:GND3") (at 73.025 124.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 46e2bdba-a8db-4d3f-82a8-838858edc7f8)
+    (property "Reference" "#PWR032" (at 73.025 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND3" (at 73.025 129.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 73.025 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 73.025 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 636a19c2-52fe-4ad6-8a9a-a04e62d9b7a1))
+    (instances
+      (project "daytime-running-light-2"
+        (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
+          (reference "#PWR032") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 53.975 180.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4723d4fe-16a0-47b8-8309-2370699f57a4)
-    (property "Reference" "R12" (at 53.975 173.99 90)
+    (property "Reference" "R14" (at 53.975 173.99 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 53.975 176.53 90)
@@ -3622,7 +3880,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "R12") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -3636,7 +3894,7 @@
   (symbol (lib_id "power:GND") (at 270.51 109.855 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49a70f62-af6a-40fa-9d58-9ab998e93fcf)
-    (property "Reference" "#PWR015" (at 270.51 116.205 0)
+    (property "Reference" "#PWR027" (at 270.51 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 270.51 114.935 0)
@@ -3652,7 +3910,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -3666,7 +3924,7 @@
   (symbol (lib_id "vcc2:VCC2") (at 29.845 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4adf367f-160d-4305-8155-6d2a572d17f0)
-    (property "Reference" "#PWR014" (at 29.845 100.33 0)
+    (property "Reference" "#PWR024" (at 29.845 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC2" (at 29.845 91.44 0)
@@ -3682,7 +3940,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -3691,7 +3949,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Socket") (at 167.005 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d8a6b0f-6352-495d-8079-0533fc5b4e68)
-    (property "Reference" "J9" (at 168.275 27.94 0)
+    (property "Reference" "J2" (at 168.275 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Socket" (at 168.275 30.48 0)
@@ -3707,7 +3965,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "J9") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3716,7 +3974,7 @@
   (symbol (lib_id "power:GND2") (at 95.25 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f67b8ca-4a60-43c2-bc44-d77fa592098d)
-    (property "Reference" "#PWR020" (at 95.25 133.35 0)
+    (property "Reference" "#PWR033" (at 95.25 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND2" (at 95.25 131.445 0)
@@ -3732,7 +3990,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -3784,7 +4042,7 @@
   (symbol (lib_id "power:GND") (at 32.385 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50db2163-5745-4721-9268-9062c3b3ec11)
-    (property "Reference" "#PWR029" (at 32.385 195.58 0)
+    (property "Reference" "#PWR043" (at 32.385 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 32.385 194.31 0)
@@ -3800,7 +4058,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -3814,7 +4072,7 @@
   (symbol (lib_id "power:+BATT") (at 189.865 26.035 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5168382c-655f-4c53-beac-94df73d092af)
-    (property "Reference" "#PWR032" (at 189.865 29.845 0)
+    (property "Reference" "#PWR04" (at 189.865 29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 189.865 21.59 0)
@@ -3830,7 +4088,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3879,10 +4137,36 @@
     )
   )
 
+  (symbol (lib_id "Diode:BAT42") (at 137.16 75.565 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5382d2fe-7dd6-4353-ac01-dff75ee8e8ba)
+    (property "Reference" "D3" (at 137.4775 69.85 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "BAT42" (at 137.4775 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp" (at 137.16 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf" (at 137.16 75.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 22817ab4-6e36-4a25-b56c-b5aa5a6b7c7a))
+    (pin "2" (uuid 014d8898-71a5-4f68-b1b3-93a87557a0ac))
+    (instances
+      (project "daytime-running-light-2"
+        (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
+          (reference "D3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:Conn_01x01_Socket") (at 236.22 78.105 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5493242b-58eb-41fd-a968-badcc434cc19)
-    (property "Reference" "J3" (at 237.49 76.835 0)
+    (property "Reference" "J5" (at 237.49 76.835 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Socket" (at 237.49 79.375 0)
@@ -3898,7 +4182,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "J3") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -3909,10 +4193,61 @@
     )
   )
 
+  (symbol (lib_id "power:GND3") (at 145.415 104.775 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5c37e449-d060-4f6d-bf7e-ca8a7f3f8b02)
+    (property "Reference" "#PWR026" (at 145.415 111.125 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND3" (at 145.415 109.855 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 145.415 104.775 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 145.415 104.775 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0e44a279-2258-4fab-98e1-d70697100e60))
+    (instances
+      (project "daytime-running-light-2"
+        (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
+          (reference "#PWR026") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 133.35 97.155 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5ea8f765-507b-4fb9-8721-f1c74bf4fa50)
+    (property "Reference" "R4" (at 133.35 91.44 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "51" (at 133.35 93.98 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (at 133.35 98.933 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 133.35 97.155 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid f70eea52-6fd7-41cc-ae8f-ee313831cf7f))
+    (pin "1" (uuid 4d14084e-9d70-4bf5-aeee-a486be7480af))
+    (instances
+      (project "daytime-running-light-2"
+        (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
+          (reference "R4") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND2") (at 71.755 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 654b10e2-a75a-4814-849c-e2765eb1cce9)
-    (property "Reference" "#PWR012" (at 71.755 73.025 0)
+    (property "Reference" "#PWR017" (at 71.755 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND2" (at 71.755 71.755 0)
@@ -3928,7 +4263,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4016,7 +4351,7 @@
   (symbol (lib_id "Diode:1N47xxA") (at 32.385 185.42 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c3f9d16-6338-4f0c-85c3-af25ff7d0908)
-    (property "Reference" "D7" (at 34.925 184.15 90)
+    (property "Reference" "D10" (at 34.925 184.15 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4742A" (at 34.925 186.69 90)
@@ -4033,7 +4368,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "D7") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4044,10 +4379,36 @@
     )
   )
 
+  (symbol (lib_id "Diode:1N47xxA") (at 160.655 79.375 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6dec51eb-4c54-4ad9-851a-fa122a95c5f0)
+    (property "Reference" "D4" (at 163.83 78.105 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1N4746A, 18V" (at 163.83 80.645 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P3.81mm_Vertical_KathodeUp" (at 156.21 79.375 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf" (at 160.655 79.375 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 1e14ac2b-1f3a-452b-8981-3b265d288040))
+    (pin "1" (uuid 2920af24-eab8-4a87-b946-97515feb9622))
+    (instances
+      (project "daytime-running-light-2"
+        (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
+          (reference "D4") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 60.325 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e3c0f7f-79f7-41b6-8709-09176ed93ac7)
-    (property "Reference" "#PWR031" (at 60.325 195.58 0)
+    (property "Reference" "#PWR045" (at 60.325 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.325 194.31 0)
@@ -4063,7 +4424,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4108,7 +4469,7 @@
   (symbol (lib_id "power:VCC") (at 213.995 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 706346c2-5000-4f6f-ab3b-536ef32a95f3)
-    (property "Reference" "#PWR033" (at 213.995 96.52 0)
+    (property "Reference" "#PWR022" (at 213.995 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 213.995 87.63 0)
@@ -4124,7 +4485,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4138,7 +4499,7 @@
   (symbol (lib_id "Device:R") (at 27.305 153.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70a42da2-caae-466d-b6fb-372e35b19e60)
-    (property "Reference" "R5" (at 27.305 147.32 90)
+    (property "Reference" "R7" (at 27.305 147.32 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 27.305 149.86 90)
@@ -4155,7 +4516,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "R5") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4212,7 +4573,7 @@
   (symbol (lib_id "power:GND2") (at 236.22 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7137cf36-a88f-4fdc-8fa1-90e7a95f53cf)
-    (property "Reference" "#PWR011" (at 236.22 69.85 0)
+    (property "Reference" "#PWR016" (at 236.22 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND2" (at 236.22 68.58 0)
@@ -4228,7 +4589,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4239,10 +4600,36 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 130.175 79.375 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 75c6cdfa-25a4-48c1-9e4a-8592f57a4ab6)
+    (property "Reference" "C8" (at 133.35 78.105 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100nF" (at 133.35 80.645 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" (at 131.1402 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 130.175 79.375 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid db458912-f9c4-44dc-9f6a-0b384822dd14))
+    (pin "2" (uuid 0ed65536-0756-4c06-83ed-1f3237e4daef))
+    (instances
+      (project "daytime-running-light-2"
+        (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
+          (reference "C8") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 27.305 180.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7a30cad0-a1b5-4be7-a9e5-90fa33839994)
-    (property "Reference" "R11" (at 27.305 173.99 90)
+    (property "Reference" "R13" (at 27.305 173.99 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 27.305 176.53 90)
@@ -4259,7 +4646,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "R11") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4316,7 +4703,7 @@
   (symbol (lib_id "power:GND") (at 47.625 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ad2e10a-faf6-401e-9285-d92e6e45e95e)
-    (property "Reference" "#PWR026" (at 47.625 168.91 0)
+    (property "Reference" "#PWR040" (at 47.625 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 47.625 167.64 0)
@@ -4332,7 +4719,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4346,7 +4733,7 @@
   (symbol (lib_id "power:GND") (at 262.89 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7adcad91-3227-4081-b3fe-da97c121187a)
-    (property "Reference" "#PWR021" (at 262.89 142.24 0)
+    (property "Reference" "#PWR034" (at 262.89 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 262.89 140.335 0)
@@ -4362,7 +4749,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4376,7 +4763,7 @@
   (symbol (lib_id "power:GND") (at 158.115 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7bf689ca-d82d-4be6-9da0-40930c1cf0e9)
-    (property "Reference" "#PWR03" (at 158.115 38.1 0)
+    (property "Reference" "#PWR07" (at 158.115 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 158.115 36.195 0)
@@ -4392,7 +4779,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4406,7 +4793,7 @@
   (symbol (lib_id "power:GND2") (at 25.4 112.395 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ce96482-03cd-49b6-b074-85b9122366fa)
-    (property "Reference" "#PWR017" (at 25.4 118.745 0)
+    (property "Reference" "#PWR029" (at 25.4 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND2" (at 25.4 116.84 0)
@@ -4422,7 +4809,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -4431,7 +4818,7 @@
   (symbol (lib_id "power:GND") (at 60.325 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f2b7108-2366-4397-aa6a-3542acd0cb4e)
-    (property "Reference" "#PWR027" (at 60.325 168.91 0)
+    (property "Reference" "#PWR041" (at 60.325 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.325 167.64 0)
@@ -4447,7 +4834,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4504,7 +4891,7 @@
   (symbol (lib_id "power:GND") (at 229.235 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83b94099-44ce-4d1e-8f5e-72796203f008)
-    (property "Reference" "#PWR016" (at 229.235 116.84 0)
+    (property "Reference" "#PWR028" (at 229.235 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 229.235 115.57 0)
@@ -4520,7 +4907,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4534,7 +4921,7 @@
   (symbol (lib_id "Diode:1.5KExxA") (at 95.25 121.285 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84cf3fcd-f744-4259-a758-b5ca57fec2bb)
-    (property "Reference" "D4" (at 97.79 120.015 90)
+    (property "Reference" "D7" (at 97.79 120.015 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5KE18A" (at 97.79 122.555 90)
@@ -4551,7 +4938,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "D4") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
       (project "soft-start2"
@@ -4565,7 +4952,7 @@
   (symbol (lib_id "power:GND") (at 213.995 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 899c9da9-e826-4c12-aa91-5dde2fe4a4f5)
-    (property "Reference" "#PWR019" (at 213.995 125.73 0)
+    (property "Reference" "#PWR031" (at 213.995 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.995 124.46 0)
@@ -4581,7 +4968,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4595,7 +4982,7 @@
   (symbol (lib_id "Device:R") (at 98.425 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 937c588f-12be-4b3e-83c5-8fb152858c99)
-    (property "Reference" "R10" (at 100.965 175.26 0)
+    (property "Reference" "R12" (at 100.965 175.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 100.965 177.8 0)
@@ -4612,7 +4999,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "R10") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4626,7 +5013,7 @@
   (symbol (lib_id "Device:C") (at 270.51 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97b02331-dde3-428c-a471-8b38c8985fc9)
-    (property "Reference" "C8" (at 274.32 103.505 0)
+    (property "Reference" "C12" (at 274.32 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 274.32 106.045 0)
@@ -4643,7 +5030,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "C8") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4657,7 +5044,7 @@
   (symbol (lib_id "power:GND2") (at 56.515 55.245 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 981a52d7-4baf-4201-93f2-63d035ac645f)
-    (property "Reference" "#PWR09" (at 56.515 61.595 0)
+    (property "Reference" "#PWR014" (at 56.515 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND2" (at 56.515 60.325 0)
@@ -4673,7 +5060,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4723,7 +5110,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Socket") (at 165.735 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c1a4612-ad12-4afc-ae43-623be72f873e)
-    (property "Reference" "J8" (at 167.005 50.8 0)
+    (property "Reference" "J4" (at 167.005 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Socket" (at 167.005 53.34 0)
@@ -4739,7 +5126,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "J8") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -4784,7 +5171,7 @@
   (symbol (lib_id "power:GND") (at 262.89 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9caa89e1-bf74-41bc-a657-cc8f9a1c9083)
-    (property "Reference" "#PWR023" (at 262.89 147.32 0)
+    (property "Reference" "#PWR036" (at 262.89 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 262.89 145.415 0)
@@ -4800,12 +5187,37 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
           (reference "#PWR029") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND2") (at 142.875 83.185 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9cb7f243-39a3-4e04-aa34-3dc7e14c9da9)
+    (property "Reference" "#PWR019" (at 142.875 89.535 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND2" (at 142.875 87.63 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 142.875 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 142.875 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3b4b0e7a-cf3a-4507-aa03-be4aafbac703))
+    (instances
+      (project "daytime-running-light-2"
+        (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -4837,6 +5249,58 @@
       (project "daytime-running-light"
         (path "/f8c2c6dd-d5ef-40d1-be2c-9a93444b1d43"
           (reference "SW1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 154.305 75.565 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a2744218-6e84-4aec-847a-9f2ca744c055)
+    (property "Reference" "R2" (at 154.305 69.85 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1k" (at 154.305 72.39 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (at 154.305 77.343 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 154.305 75.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ca279380-d2b5-46f9-bfd5-6de211fb36da))
+    (pin "2" (uuid 2144f506-537a-4a64-8100-29cb15bda952))
+    (instances
+      (project "daytime-running-light-2"
+        (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
+          (reference "R2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 48.895 103.505 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a2d70764-8a99-454f-a623-a077b8b92861)
+    (property "Reference" "R18" (at 46.355 100.965 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0R" (at 46.355 106.045 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 47.117 103.505 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 48.895 103.505 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2d3f9121-12c0-421c-8eed-948f391171c1))
+    (pin "2" (uuid 4d37d6ad-f099-411f-be4c-ad3417920567))
+    (instances
+      (project "daytime-running-light-2"
+        (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -4877,7 +5341,7 @@
   (symbol (lib_id "Diode:1.5KExxA") (at 95.25 106.68 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6cb1d03-34d9-4009-8333-224f01481a99)
-    (property "Reference" "D3" (at 97.79 105.41 90)
+    (property "Reference" "D6" (at 97.79 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5KE18A" (at 97.79 107.95 90)
@@ -4894,7 +5358,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "D3") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
       (project "soft-start2"
@@ -4941,10 +5405,36 @@
     )
   )
 
+  (symbol (lib_id "Device:C_Polarized") (at 139.7 100.965 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a9573d0a-42df-4777-bfbd-c7d2152b13aa)
+    (property "Reference" "C10" (at 143.51 98.806 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "4.7uF" (at 143.51 101.346 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 140.6652 104.775 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 139.7 100.965 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e39cc72f-9fcb-4714-b691-167fa3255674))
+    (pin "2" (uuid 969950f9-5314-42dd-b6f9-a097415eac53))
+    (instances
+      (project "daytime-running-light-2"
+        (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
+          (reference "C10") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 60.325 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa15738f-2802-4e46-9bac-0f3aa0be3a0d)
-    (property "Reference" "C11" (at 64.135 157.48 0)
+    (property "Reference" "C14" (at 64.135 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.33uF" (at 64.135 160.02 0)
@@ -4961,7 +5451,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "C11") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -4975,7 +5465,7 @@
   (symbol (lib_id "vcc2:VCC2") (at 135.89 23.495 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abcb288b-0536-4168-81ea-08c68bb653da)
-    (property "Reference" "#PWR041" (at 135.89 27.305 0)
+    (property "Reference" "#PWR02" (at 135.89 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC2" (at 135.89 18.415 0)
@@ -4991,7 +5481,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -5000,7 +5490,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 167.64 168.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad9181a9-4448-4167-968a-e570824d786b)
-    (property "Reference" "J6" (at 167.005 163.83 0)
+    (property "Reference" "J8" (at 167.005 163.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Pin" (at 167.005 166.37 0)
@@ -5016,7 +5506,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "J6") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -5030,7 +5520,7 @@
   (symbol (lib_id "power:GND") (at 138.43 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid afb45b36-eae2-4a73-8793-366d9ed3688b)
-    (property "Reference" "#PWR028" (at 138.43 193.04 0)
+    (property "Reference" "#PWR042" (at 138.43 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 191.77 0)
@@ -5046,7 +5536,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -5091,7 +5581,7 @@
   (symbol (lib_id "power:VCC") (at 270.51 92.075 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1c4ea93-787d-4d2e-be6c-5b74b8634136)
-    (property "Reference" "#PWR036" (at 270.51 95.885 0)
+    (property "Reference" "#PWR021" (at 270.51 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 270.51 86.995 0)
@@ -5107,7 +5597,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -5157,7 +5647,7 @@
   (symbol (lib_id "power:VCC") (at 247.015 26.035 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b43b08b6-4668-45f4-96b5-263b7d14d6f4)
-    (property "Reference" "#PWR02" (at 247.015 29.845 0)
+    (property "Reference" "#PWR05" (at 247.015 29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 247.015 20.955 0)
@@ -5173,7 +5663,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -5187,7 +5677,7 @@
   (symbol (lib_id "power:GND2") (at 135.89 38.735 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b55a7f97-105b-4c5a-9f19-9f01fa969cda)
-    (property "Reference" "#PWR04" (at 135.89 45.085 0)
+    (property "Reference" "#PWR08" (at 135.89 45.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND2" (at 135.89 43.815 0)
@@ -5203,7 +5693,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -5291,7 +5781,7 @@
   (symbol (lib_id "power:GND2") (at 158.115 53.975 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba284594-3bfd-4b00-8cca-fdc6dbdd0462)
-    (property "Reference" "#PWR08" (at 158.115 60.325 0)
+    (property "Reference" "#PWR013" (at 158.115 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND2" (at 158.115 59.055 0)
@@ -5307,7 +5797,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -5321,7 +5811,7 @@
   (symbol (lib_id "power:GND2") (at 21.59 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bfb2a8f2-cfae-462a-a912-a48facb65ba6)
-    (property "Reference" "#PWR010" (at 21.59 62.865 0)
+    (property "Reference" "#PWR015" (at 21.59 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND2" (at 21.59 61.595 0)
@@ -5337,7 +5827,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -5463,7 +5953,7 @@
   (symbol (lib_id "Device:R") (at 47.625 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c3741f16-99c3-4df4-8fd8-10e88de9c136)
-    (property "Reference" "R7" (at 50.165 157.48 0)
+    (property "Reference" "R9" (at 50.165 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 50.165 160.02 0)
@@ -5480,7 +5970,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "R7") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -5565,7 +6055,7 @@
   (symbol (lib_id "Device:R") (at 53.975 153.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb22faf3-d1a0-4994-a3b3-4bfff6e16a91)
-    (property "Reference" "R6" (at 53.975 147.32 90)
+    (property "Reference" "R8" (at 53.975 147.32 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 53.975 149.86 90)
@@ -5582,7 +6072,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "R6") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -5596,7 +6086,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Socket") (at 165.735 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbd26518-6649-4044-8c07-6d8ea7229ec3)
-    (property "Reference" "J2" (at 167.005 48.26 0)
+    (property "Reference" "J3" (at 167.005 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Socket" (at 167.005 50.8 0)
@@ -5612,7 +6102,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -5652,7 +6142,7 @@
   (symbol (lib_id "Device:R") (at 224.155 78.105 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d035f28c-3a4d-41d4-b905-824469a7ce3b)
-    (property "Reference" "R2" (at 224.155 71.755 90)
+    (property "Reference" "R3" (at 224.155 71.755 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 224.155 74.295 90)
@@ -5669,7 +6159,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "R2") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -5726,13 +6216,13 @@
   (symbol (lib_id "Device:R") (at 50.8 112.395 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d71767d2-5a29-4e65-871a-5699bf0e9b15)
-    (property "Reference" "R3" (at 50.8 106.045 90)
+    (property "Reference" "R5" (at 50.8 106.045 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 50.8 108.585 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (at 50.8 114.173 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 50.8 114.173 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 50.8 112.395 0)
@@ -5743,7 +6233,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "R3") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
       (project "soft-start2"
@@ -5757,7 +6247,7 @@
   (symbol (lib_id "Device:C") (at 60.325 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dcb4e904-4edd-4651-acab-15828d270f5c)
-    (property "Reference" "C12" (at 64.135 184.15 0)
+    (property "Reference" "C15" (at 64.135 184.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.33uF" (at 64.135 186.69 0)
@@ -5774,7 +6264,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "C12") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -5788,7 +6278,7 @@
   (symbol (lib_id "Device:R") (at 138.43 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df11a08f-72e2-4a0b-802c-14a868f15b00)
-    (property "Reference" "R13" (at 140.335 181.61 0)
+    (property "Reference" "R15" (at 140.335 181.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 140.335 184.15 0)
@@ -5805,7 +6295,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "R13") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -5819,7 +6309,7 @@
   (symbol (lib_id "power:VCC") (at 229.235 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e069a2c7-2eed-4f90-a60a-2092fd28fa20)
-    (property "Reference" "#PWR034" (at 229.235 96.52 0)
+    (property "Reference" "#PWR023" (at 229.235 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 229.235 87.63 0)
@@ -5835,7 +6325,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -5849,7 +6339,7 @@
   (symbol (lib_id "Device:R") (at 146.685 168.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2a1aa8e-02ec-428d-80b6-8068ed3234f2)
-    (property "Reference" "R9" (at 151.13 171.45 90)
+    (property "Reference" "R11" (at 151.13 171.45 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 146.05 171.45 90)
@@ -5866,7 +6356,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "R9") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -5880,7 +6370,7 @@
   (symbol (lib_id "Device:R") (at 47.625 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3f1f595-34c7-4e9d-ba7e-32c4a520bb29)
-    (property "Reference" "R14" (at 50.165 184.15 0)
+    (property "Reference" "R16" (at 50.165 184.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 50.165 186.69 0)
@@ -5897,7 +6387,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "R14") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -5911,7 +6401,7 @@
   (symbol (lib_id "batt2:+BATT2") (at 158.115 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eab8c74a-6ffe-492c-86f3-f251ee0c2ec6)
-    (property "Reference" "#PWR042" (at 158.115 52.07 0)
+    (property "Reference" "#PWR010" (at 158.115 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT2" (at 158.115 43.815 0)
@@ -5927,7 +6417,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -5936,7 +6426,7 @@
   (symbol (lib_id "batt2:+BATT2") (at 73.025 97.155 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed6a257a-c25e-4b74-b66b-5c0f4684b379)
-    (property "Reference" "#PWR06" (at 73.025 100.965 0)
+    (property "Reference" "#PWR025" (at 73.025 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT2" (at 73.025 92.71 0)
@@ -5952,7 +6442,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -5961,7 +6451,7 @@
   (symbol (lib_id "vcc2:VCC2") (at 56.515 23.495 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee040e46-25a3-4f0f-94bb-713507020786)
-    (property "Reference" "#PWR040" (at 56.515 27.305 0)
+    (property "Reference" "#PWR01" (at 56.515 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC2" (at 56.515 18.415 0)
@@ -5977,7 +6467,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -6061,7 +6551,7 @@
   (symbol (lib_id "Device:LED") (at 142.24 153.035 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f45bc18e-f896-4c82-80d9-a22b13ade6af)
-    (property "Reference" "D5" (at 140.6525 146.05 0)
+    (property "Reference" "D8" (at 140.6525 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 140.6525 148.59 0)
@@ -6078,7 +6568,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "D5") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -6092,7 +6582,7 @@
   (symbol (lib_id "power:VCC") (at 255.27 92.075 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5f9b1da-e98e-4871-96f7-ab8bb92b12a0)
-    (property "Reference" "#PWR035" (at 255.27 95.885 0)
+    (property "Reference" "#PWR020" (at 255.27 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 255.27 86.995 0)
@@ -6108,7 +6598,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -6122,7 +6612,7 @@
   (symbol (lib_id "Device:R") (at 98.425 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6da465a-b9db-43f4-8ba7-4accea06675d)
-    (property "Reference" "R8" (at 100.965 158.75 0)
+    (property "Reference" "R10" (at 100.965 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 100.965 161.29 0)
@@ -6139,7 +6629,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "R8") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -6153,7 +6643,7 @@
   (symbol (lib_id "power:GND") (at 240.665 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9d8bf29-e430-4bd7-98b4-d3a93e27a1cf)
-    (property "Reference" "#PWR024" (at 240.665 160.02 0)
+    (property "Reference" "#PWR038" (at 240.665 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.665 158.115 0)
@@ -6169,7 +6659,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -6183,7 +6673,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Socket") (at 198.755 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fab15717-f099-44c0-b68d-b2944d92fb6d)
-    (property "Reference" "J4" (at 200.025 133.35 0)
+    (property "Reference" "J6" (at 200.025 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Socket" (at 200.025 135.89 0)
@@ -6199,7 +6689,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "J4") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
       (project "daytime-running-light"
@@ -6213,7 +6703,7 @@
   (symbol (lib_id "power:GND") (at 241.3 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff2065a0-6b53-44e1-b2b2-66ba24c9fde1)
-    (property "Reference" "#PWR022" (at 241.3 146.05 0)
+    (property "Reference" "#PWR035" (at 241.3 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.3 144.145 0)
@@ -6229,7 +6719,7 @@
     (instances
       (project "daytime-running-light-2"
         (path "/9023045d-07e5-40d0-a7bc-4afee72e09a8"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
       (project "daytime-running-light"

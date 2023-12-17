@@ -1,141 +1,2031 @@
-33339014467409
-LIB
-BU941ZPFI
-
-
+492650887154462
+Connector_Wire
+SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm
+Soldered wire connection, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm
+0
+1
+1
+Connector_Wire
+SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief
+Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm double-strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm
+Soldered wire connection, for 2 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm
+0
+2
+2
+Connector_Wire
+SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 2 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm double-strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.1sqmm_1x03_P3.6mm_D0.4mm_OD1mm
+Soldered wire connection, for 3 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm
 0
 3
 3
-LIB
-DIP254P762X420-14
-
-
-0
-14
-14
-LIB
-DIP762W45P254L1092H508Q8
-
-
-0
-8
-8
-LIB
-DIP794W45P254L959H508Q8
-
-
-0
-8
-8
-LIB
-DIP794W45P254L1969H508Q16
-
-
-0
-16
-16
-LIB
-MEANWELL_LDB-350L
-
-
-0
-9
-9
-LIB
-Relay-DIP-12_W7.62mm
-12-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
-THT DIP DIL PDIP 2.54mm 7.62mm 300mil
-0
-6
-6
-LIB
-SO-8_3.9x4.9mm_P1.27mm
-SO, 8 Pin (https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SO SO
-0
-8
-3
-LIB
-SOIC127P599X175-8N
-
-
-0
-8
-8
-LIB
-SolderWirePad_1x03_P7.62mm_Drill2.5mm
-Wire solder connection
-connector
+Connector_Wire
+SolderWire-0.1sqmm_1x03_P3.6mm_D0.4mm_OD1mm_Relief
+Soldered wire connection with feed through strain relief, for 3 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm strain-relief
 0
 3
 3
-LIB
-SolderWirePad_1x05_P3.81mm_Drill1mm
-Wire solder connection
-connector
-0
-5
-5
-LIB
-TO-92_HandSolder2
-TO-92 leads molded, narrow, drill 0.75mm, handsoldering variant with enlarged pads (see NXP sot054_po.pdf)
-to-92 sc-43 sc-43a sot54 PA33 transistor
+Connector_Wire
+SolderWire-0.1sqmm_1x03_P3.6mm_D0.4mm_OD1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 3 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm double-strain-relief
 0
 3
 3
-LIB
-TO-220-3-4_Horizontal_TabDown
-TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
-TO-220-3 Horizontal RM 2.54mm
+Connector_Wire
+SolderWire-0.1sqmm_1x04_P3.6mm_D0.4mm_OD1mm
+Soldered wire connection, for 4 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm
 0
 4
 4
-LIB
-TO-220-3_Horizontal_TabDown-mod
-TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
-TO-220-3 Horizontal RM 2.54mm
+Connector_Wire
+SolderWire-0.1sqmm_1x04_P3.6mm_D0.4mm_OD1mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.1sqmm_1x04_P3.6mm_D0.4mm_OD1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 4 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm double-strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.1sqmm_1x05_P3.6mm_D0.4mm_OD1mm
+Soldered wire connection, for 5 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm
+0
+5
+5
+Connector_Wire
+SolderWire-0.1sqmm_1x05_P3.6mm_D0.4mm_OD1mm_Relief
+Soldered wire connection with feed through strain relief, for 5 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.1sqmm_1x05_P3.6mm_D0.4mm_OD1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 5 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm double-strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.1sqmm_1x06_P3.6mm_D0.4mm_OD1mm
+Soldered wire connection, for 6 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm
+0
+6
+6
+Connector_Wire
+SolderWire-0.1sqmm_1x06_P3.6mm_D0.4mm_OD1mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.1sqmm_1x06_P3.6mm_D0.4mm_OD1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 6 times 0.1 mm² wires, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.1 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.1sqmm double-strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm
+Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm
+0
+1
+1
+Connector_Wire
+SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm_Relief
+Soldered wire connection with feed through strain relief, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm double-strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm
+Soldered wire connection, for a single 0.5 mm² wire, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm
+0
+1
+1
+Connector_Wire
+SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm_Relief
+Soldered wire connection with feed through strain relief, for a single 0.5 mm² wire, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for a single 0.5 mm² wire, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm double-strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm
+Soldered wire connection, for 2 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm
+0
+2
+2
+Connector_Wire
+SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 2 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm double-strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.5sqmm_1x02_P4.8mm_D0.9mm_OD2.3mm
+Soldered wire connection, for 2 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm
+0
+2
+2
+Connector_Wire
+SolderWire-0.5sqmm_1x02_P4.8mm_D0.9mm_OD2.3mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.5sqmm_1x02_P4.8mm_D0.9mm_OD2.3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 2 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm double-strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.5sqmm_1x03_P4.6mm_D0.9mm_OD2.1mm
+Soldered wire connection, for 3 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm
 0
 3
 3
-LIB
-TO-220-3_Horizontal_TabDown-mod2
-TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
-TO-220-3 Horizontal RM 2.54mm
+Connector_Wire
+SolderWire-0.5sqmm_1x03_P4.6mm_D0.9mm_OD2.1mm_Relief
+Soldered wire connection with feed through strain relief, for 3 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
 0
 3
 3
-LIB
-TO-220-3_Vertical-mod
-TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
-TO-220-3 Vertical RM 2.54mm
+Connector_Wire
+SolderWire-0.5sqmm_1x03_P4.6mm_D0.9mm_OD2.1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 3 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm double-strain-relief
 0
 3
 3
-LIB
-TO-220-3_Vertical-mod2
-TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
-TO-220-3 Vertical RM 2.54mm
+Connector_Wire
+SolderWire-0.5sqmm_1x03_P4.8mm_D0.9mm_OD2.3mm
+Soldered wire connection, for 3 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm
 0
 3
 3
-LIB
-TO-220-3_Vertical-mod3
-TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
-TO-220-3 Vertical RM 2.54mm
+Connector_Wire
+SolderWire-0.5sqmm_1x03_P4.8mm_D0.9mm_OD2.3mm_Relief
+Soldered wire connection with feed through strain relief, for 3 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
 0
 3
 3
-LIB
-TO220
-<b>TO 220 horizontal</b>
-
+Connector_Wire
+SolderWire-0.5sqmm_1x03_P4.8mm_D0.9mm_OD2.3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 3 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm double-strain-relief
 0
 3
 3
-LIB
-TO254P1016X419X2286-3
-
-
+Connector_Wire
+SolderWire-0.5sqmm_1x04_P4.6mm_D0.9mm_OD2.1mm
+Soldered wire connection, for 4 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm
+0
+4
+4
+Connector_Wire
+SolderWire-0.5sqmm_1x04_P4.6mm_D0.9mm_OD2.1mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.5sqmm_1x04_P4.6mm_D0.9mm_OD2.1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 4 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm double-strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.5sqmm_1x04_P4.8mm_D0.9mm_OD2.3mm
+Soldered wire connection, for 4 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm
+0
+4
+4
+Connector_Wire
+SolderWire-0.5sqmm_1x04_P4.8mm_D0.9mm_OD2.3mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.5sqmm_1x04_P4.8mm_D0.9mm_OD2.3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 4 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm double-strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.5sqmm_1x05_P4.6mm_D0.9mm_OD2.1mm
+Soldered wire connection, for 5 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm
+0
+5
+5
+Connector_Wire
+SolderWire-0.5sqmm_1x05_P4.6mm_D0.9mm_OD2.1mm_Relief
+Soldered wire connection with feed through strain relief, for 5 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.5sqmm_1x05_P4.6mm_D0.9mm_OD2.1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 5 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm double-strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.5sqmm_1x05_P4.8mm_D0.9mm_OD2.3mm
+Soldered wire connection, for 5 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm
+0
+5
+5
+Connector_Wire
+SolderWire-0.5sqmm_1x05_P4.8mm_D0.9mm_OD2.3mm_Relief
+Soldered wire connection with feed through strain relief, for 5 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.5sqmm_1x05_P4.8mm_D0.9mm_OD2.3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 5 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm double-strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.5sqmm_1x06_P4.6mm_D0.9mm_OD2.1mm
+Soldered wire connection, for 6 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm
+0
+6
+6
+Connector_Wire
+SolderWire-0.5sqmm_1x06_P4.6mm_D0.9mm_OD2.1mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.5sqmm_1x06_P4.6mm_D0.9mm_OD2.1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 6 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm double-strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.5sqmm_1x06_P4.8mm_D0.9mm_OD2.3mm
+Soldered wire connection, for 6 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm
+0
+6
+6
+Connector_Wire
+SolderWire-0.5sqmm_1x06_P4.8mm_D0.9mm_OD2.3mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.5sqmm_1x06_P4.8mm_D0.9mm_OD2.3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 6 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.5sqmm double-strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm
+Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm
+0
+1
+1
+Connector_Wire
+SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm_Relief
+Soldered wire connection with feed through strain relief, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm_Relief2x
+Soldered wire connection with double feed through strain relief, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm double-strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.15sqmm_1x02_P4mm_D0.5mm_OD1.5mm
+Soldered wire connection, for 2 times 0.15 mm² wires, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm
+0
+2
+2
+Connector_Wire
+SolderWire-0.15sqmm_1x02_P4mm_D0.5mm_OD1.5mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 0.15 mm² wires, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.15sqmm_1x02_P4mm_D0.5mm_OD1.5mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 2 times 0.15 mm² wires, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm double-strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.15sqmm_1x03_P4mm_D0.5mm_OD1.5mm
+Soldered wire connection, for 3 times 0.15 mm² wires, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm
 0
 3
 3
+Connector_Wire
+SolderWire-0.15sqmm_1x03_P4mm_D0.5mm_OD1.5mm_Relief
+Soldered wire connection with feed through strain relief, for 3 times 0.15 mm² wires, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-0.15sqmm_1x03_P4mm_D0.5mm_OD1.5mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 3 times 0.15 mm² wires, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm double-strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-0.15sqmm_1x04_P4mm_D0.5mm_OD1.5mm
+Soldered wire connection, for 4 times 0.15 mm² wires, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm
+0
+4
+4
+Connector_Wire
+SolderWire-0.15sqmm_1x04_P4mm_D0.5mm_OD1.5mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 0.15 mm² wires, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.15sqmm_1x04_P4mm_D0.5mm_OD1.5mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 4 times 0.15 mm² wires, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm double-strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.15sqmm_1x05_P4mm_D0.5mm_OD1.5mm
+Soldered wire connection, for 5 times 0.15 mm² wires, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm
+0
+5
+5
+Connector_Wire
+SolderWire-0.15sqmm_1x05_P4mm_D0.5mm_OD1.5mm_Relief
+Soldered wire connection with feed through strain relief, for 5 times 0.15 mm² wires, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.15sqmm_1x05_P4mm_D0.5mm_OD1.5mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 5 times 0.15 mm² wires, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm double-strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.15sqmm_1x06_P4mm_D0.5mm_OD1.5mm
+Soldered wire connection, for 6 times 0.15 mm² wires, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm
+0
+6
+6
+Connector_Wire
+SolderWire-0.15sqmm_1x06_P4mm_D0.5mm_OD1.5mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 0.15 mm² wires, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.15sqmm_1x06_P4mm_D0.5mm_OD1.5mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 6 times 0.15 mm² wires, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.15sqmm double-strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm
+Soldered wire connection, for a single 0.25 mm² wire, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm
+0
+1
+1
+Connector_Wire
+SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm_Relief
+Soldered wire connection with feed through strain relief, for a single 0.25 mm² wire, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.25sqmm_1x01_D0.65mm_OD1.7mm_Relief2x
+Soldered wire connection with double feed through strain relief, for a single 0.25 mm² wire, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm double-strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm
+Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm
+0
+1
+1
+Connector_Wire
+SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_Relief
+Soldered wire connection with feed through strain relief, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_Relief2x
+Soldered wire connection with double feed through strain relief, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm double-strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.25sqmm_1x02_P4.2mm_D0.65mm_OD1.7mm
+Soldered wire connection, for 2 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm
+0
+2
+2
+Connector_Wire
+SolderWire-0.25sqmm_1x02_P4.2mm_D0.65mm_OD1.7mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.25sqmm_1x02_P4.2mm_D0.65mm_OD1.7mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 2 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm double-strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.25sqmm_1x02_P4.5mm_D0.65mm_OD2mm
+Soldered wire connection, for 2 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm
+0
+2
+2
+Connector_Wire
+SolderWire-0.25sqmm_1x02_P4.5mm_D0.65mm_OD2mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.25sqmm_1x02_P4.5mm_D0.65mm_OD2mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 2 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm double-strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.25sqmm_1x03_P4.2mm_D0.65mm_OD1.7mm
+Soldered wire connection, for 3 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm
+0
+3
+3
+Connector_Wire
+SolderWire-0.25sqmm_1x03_P4.2mm_D0.65mm_OD1.7mm_Relief
+Soldered wire connection with feed through strain relief, for 3 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-0.25sqmm_1x03_P4.2mm_D0.65mm_OD1.7mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 3 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm double-strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-0.25sqmm_1x03_P4.5mm_D0.65mm_OD2mm
+Soldered wire connection, for 3 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm
+0
+3
+3
+Connector_Wire
+SolderWire-0.25sqmm_1x03_P4.5mm_D0.65mm_OD2mm_Relief
+Soldered wire connection with feed through strain relief, for 3 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-0.25sqmm_1x03_P4.5mm_D0.65mm_OD2mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 3 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm double-strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-0.25sqmm_1x04_P4.2mm_D0.65mm_OD1.7mm
+Soldered wire connection, for 4 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm
+0
+4
+4
+Connector_Wire
+SolderWire-0.25sqmm_1x04_P4.2mm_D0.65mm_OD1.7mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.25sqmm_1x04_P4.2mm_D0.65mm_OD1.7mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 4 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm double-strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm
+Soldered wire connection, for 4 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm
+0
+4
+4
+Connector_Wire
+SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.25sqmm_1x04_P4.5mm_D0.65mm_OD2mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 4 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm double-strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.25sqmm_1x05_P4.2mm_D0.65mm_OD1.7mm
+Soldered wire connection, for 5 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm
+0
+5
+5
+Connector_Wire
+SolderWire-0.25sqmm_1x05_P4.2mm_D0.65mm_OD1.7mm_Relief
+Soldered wire connection with feed through strain relief, for 5 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.25sqmm_1x05_P4.2mm_D0.65mm_OD1.7mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 5 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm double-strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.25sqmm_1x05_P4.5mm_D0.65mm_OD2mm
+Soldered wire connection, for 5 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm
+0
+5
+5
+Connector_Wire
+SolderWire-0.25sqmm_1x05_P4.5mm_D0.65mm_OD2mm_Relief
+Soldered wire connection with feed through strain relief, for 5 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.25sqmm_1x05_P4.5mm_D0.65mm_OD2mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 5 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm double-strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.25sqmm_1x06_P4.2mm_D0.65mm_OD1.7mm
+Soldered wire connection, for 6 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm
+0
+6
+6
+Connector_Wire
+SolderWire-0.25sqmm_1x06_P4.2mm_D0.65mm_OD1.7mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.25sqmm_1x06_P4.2mm_D0.65mm_OD1.7mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 6 times 0.25 mm² wires, basic insulation, conductor diameter 0.65mm, outer diameter 1.7mm, size source Multi-Contact FLEXI-E_0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm double-strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.25sqmm_1x06_P4.5mm_D0.65mm_OD2mm
+Soldered wire connection, for 6 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm
+0
+6
+6
+Connector_Wire
+SolderWire-0.25sqmm_1x06_P4.5mm_D0.65mm_OD2mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.25sqmm_1x06_P4.5mm_D0.65mm_OD2mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 6 times 0.25 mm² wires, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.25sqmm double-strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm
+Soldered wire connection, for a single 0.75 mm² wire, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm
+0
+1
+1
+Connector_Wire
+SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm_Relief
+Soldered wire connection with feed through strain relief, for a single 0.75 mm² wire, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for a single 0.75 mm² wire, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm double-strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm
+Soldered wire connection, for a single 0.75 mm² wire, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm
+0
+1
+1
+Connector_Wire
+SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm_Relief
+Soldered wire connection with feed through strain relief, for a single 0.75 mm² wire, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm_Relief2x
+Soldered wire connection with double feed through strain relief, for a single 0.75 mm² wire, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm double-strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm
+Soldered wire connection, for 2 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm
+0
+2
+2
+Connector_Wire
+SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 2 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm double-strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.75sqmm_1x02_P7mm_D1.25mm_OD3.5mm
+Soldered wire connection, for 2 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm
+0
+2
+2
+Connector_Wire
+SolderWire-0.75sqmm_1x02_P7mm_D1.25mm_OD3.5mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.75sqmm_1x02_P7mm_D1.25mm_OD3.5mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 2 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm double-strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.75sqmm_1x03_P4.8mm_D1.25mm_OD2.3mm
+Soldered wire connection, for 3 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm
+0
+3
+3
+Connector_Wire
+SolderWire-0.75sqmm_1x03_P4.8mm_D1.25mm_OD2.3mm_Relief
+Soldered wire connection with feed through strain relief, for 3 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-0.75sqmm_1x03_P4.8mm_D1.25mm_OD2.3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 3 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm double-strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-0.75sqmm_1x03_P7mm_D1.25mm_OD3.5mm
+Soldered wire connection, for 3 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm
+0
+3
+3
+Connector_Wire
+SolderWire-0.75sqmm_1x03_P7mm_D1.25mm_OD3.5mm_Relief
+Soldered wire connection with feed through strain relief, for 3 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-0.75sqmm_1x03_P7mm_D1.25mm_OD3.5mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 3 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm double-strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-0.75sqmm_1x04_P4.8mm_D1.25mm_OD2.3mm
+Soldered wire connection, for 4 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm
+0
+4
+4
+Connector_Wire
+SolderWire-0.75sqmm_1x04_P4.8mm_D1.25mm_OD2.3mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.75sqmm_1x04_P4.8mm_D1.25mm_OD2.3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 4 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm double-strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.75sqmm_1x04_P7mm_D1.25mm_OD3.5mm
+Soldered wire connection, for 4 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm
+0
+4
+4
+Connector_Wire
+SolderWire-0.75sqmm_1x04_P7mm_D1.25mm_OD3.5mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.75sqmm_1x04_P7mm_D1.25mm_OD3.5mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 4 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm double-strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.75sqmm_1x05_P4.8mm_D1.25mm_OD2.3mm
+Soldered wire connection, for 5 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm
+0
+5
+5
+Connector_Wire
+SolderWire-0.75sqmm_1x05_P4.8mm_D1.25mm_OD2.3mm_Relief
+Soldered wire connection with feed through strain relief, for 5 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.75sqmm_1x05_P4.8mm_D1.25mm_OD2.3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 5 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm double-strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.75sqmm_1x05_P7mm_D1.25mm_OD3.5mm
+Soldered wire connection, for 5 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm
+0
+5
+5
+Connector_Wire
+SolderWire-0.75sqmm_1x05_P7mm_D1.25mm_OD3.5mm_Relief
+Soldered wire connection with feed through strain relief, for 5 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.75sqmm_1x05_P7mm_D1.25mm_OD3.5mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 5 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm double-strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.75sqmm_1x06_P4.8mm_D1.25mm_OD2.3mm
+Soldered wire connection, for 6 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm
+0
+6
+6
+Connector_Wire
+SolderWire-0.75sqmm_1x06_P4.8mm_D1.25mm_OD2.3mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.75sqmm_1x06_P4.8mm_D1.25mm_OD2.3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 6 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm double-strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.75sqmm_1x06_P7mm_D1.25mm_OD3.5mm
+Soldered wire connection, for 6 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm
+0
+6
+6
+Connector_Wire
+SolderWire-0.75sqmm_1x06_P7mm_D1.25mm_OD3.5mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.75sqmm_1x06_P7mm_D1.25mm_OD3.5mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 6 times 0.75 mm² wires, reinforced insulation, conductor diameter 1.25mm, outer diameter 3.5mm, size source Multi-Contact FLEXI-xV 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.75sqmm double-strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm
+Soldered wire connection, for a single 0.127 mm² wire, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm
+0
+1
+1
+Connector_Wire
+SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm_Relief
+Soldered wire connection with feed through strain relief, for a single 0.127 mm² wire, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.127sqmm_1x01_D0.48mm_OD1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for a single 0.127 mm² wire, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm double-strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-0.127sqmm_1x02_P3.7mm_D0.48mm_OD1mm
+Soldered wire connection, for 2 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm
+0
+2
+2
+Connector_Wire
+SolderWire-0.127sqmm_1x02_P3.7mm_D0.48mm_OD1mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.127sqmm_1x02_P3.7mm_D0.48mm_OD1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 2 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm double-strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-0.127sqmm_1x03_P3.7mm_D0.48mm_OD1mm
+Soldered wire connection, for 3 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm
+0
+3
+3
+Connector_Wire
+SolderWire-0.127sqmm_1x03_P3.7mm_D0.48mm_OD1mm_Relief
+Soldered wire connection with feed through strain relief, for 3 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-0.127sqmm_1x03_P3.7mm_D0.48mm_OD1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 3 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm double-strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-0.127sqmm_1x04_P3.7mm_D0.48mm_OD1mm
+Soldered wire connection, for 4 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm
+0
+4
+4
+Connector_Wire
+SolderWire-0.127sqmm_1x04_P3.7mm_D0.48mm_OD1mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.127sqmm_1x04_P3.7mm_D0.48mm_OD1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 4 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm double-strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-0.127sqmm_1x05_P3.7mm_D0.48mm_OD1mm
+Soldered wire connection, for 5 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm
+0
+5
+5
+Connector_Wire
+SolderWire-0.127sqmm_1x05_P3.7mm_D0.48mm_OD1mm_Relief
+Soldered wire connection with feed through strain relief, for 5 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.127sqmm_1x05_P3.7mm_D0.48mm_OD1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 5 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm double-strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-0.127sqmm_1x06_P3.7mm_D0.48mm_OD1mm
+Soldered wire connection, for 6 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm
+0
+6
+6
+Connector_Wire
+SolderWire-0.127sqmm_1x06_P3.7mm_D0.48mm_OD1mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-0.127sqmm_1x06_P3.7mm_D0.48mm_OD1mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 6 times 0.127 mm² wires, basic insulation, conductor diameter 0.48mm, outer diameter 1mm, size source Multi-Contact FLEXI-E/HK 0.127 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 0.127sqmm double-strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm
+Soldered wire connection, for a single 1.5 mm² wire, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm
+0
+1
+1
+Connector_Wire
+SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for a single 1.5 mm² wire, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for a single 1.5 mm² wire, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm double-strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-1.5sqmm_1x01_D1.7mm_OD3mm
+Soldered wire connection, for a single 1.5 mm² wire, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm
+0
+1
+1
+Connector_Wire
+SolderWire-1.5sqmm_1x01_D1.7mm_OD3mm_Relief
+Soldered wire connection with feed through strain relief, for a single 1.5 mm² wire, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-1.5sqmm_1x01_D1.7mm_OD3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for a single 1.5 mm² wire, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm double-strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-1.5sqmm_1x02_P6mm_D1.7mm_OD3mm
+Soldered wire connection, for 2 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm
+0
+2
+2
+Connector_Wire
+SolderWire-1.5sqmm_1x02_P6mm_D1.7mm_OD3mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-1.5sqmm_1x02_P6mm_D1.7mm_OD3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 2 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm double-strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm
+Soldered wire connection, for 2 times 1.5 mm² wires, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm
+0
+2
+2
+Connector_Wire
+SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 1.5 mm² wires, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 2 times 1.5 mm² wires, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm double-strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-1.5sqmm_1x03_P6mm_D1.7mm_OD3mm
+Soldered wire connection, for 3 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm
+0
+3
+3
+Connector_Wire
+SolderWire-1.5sqmm_1x03_P6mm_D1.7mm_OD3mm_Relief
+Soldered wire connection with feed through strain relief, for 3 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-1.5sqmm_1x03_P6mm_D1.7mm_OD3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 3 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm double-strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-1.5sqmm_1x03_P7.8mm_D1.7mm_OD3.9mm
+Soldered wire connection, for 3 times 1.5 mm² wires, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm
+0
+3
+3
+Connector_Wire
+SolderWire-1.5sqmm_1x03_P7.8mm_D1.7mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for 3 times 1.5 mm² wires, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-1.5sqmm_1x03_P7.8mm_D1.7mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 3 times 1.5 mm² wires, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm double-strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-1.5sqmm_1x04_P6mm_D1.7mm_OD3mm
+Soldered wire connection, for 4 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm
+0
+4
+4
+Connector_Wire
+SolderWire-1.5sqmm_1x04_P6mm_D1.7mm_OD3mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-1.5sqmm_1x04_P6mm_D1.7mm_OD3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 4 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm double-strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-1.5sqmm_1x04_P7.8mm_D1.7mm_OD3.9mm
+Soldered wire connection, for 4 times 1.5 mm² wires, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm
+0
+4
+4
+Connector_Wire
+SolderWire-1.5sqmm_1x04_P7.8mm_D1.7mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 1.5 mm² wires, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-1.5sqmm_1x04_P7.8mm_D1.7mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 4 times 1.5 mm² wires, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm double-strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-1.5sqmm_1x05_P6mm_D1.7mm_OD3mm
+Soldered wire connection, for 5 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm
+0
+5
+5
+Connector_Wire
+SolderWire-1.5sqmm_1x05_P6mm_D1.7mm_OD3mm_Relief
+Soldered wire connection with feed through strain relief, for 5 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-1.5sqmm_1x05_P6mm_D1.7mm_OD3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 5 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm double-strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-1.5sqmm_1x05_P7.8mm_D1.7mm_OD3.9mm
+Soldered wire connection, for 5 times 1.5 mm² wires, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm
+0
+5
+5
+Connector_Wire
+SolderWire-1.5sqmm_1x05_P7.8mm_D1.7mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for 5 times 1.5 mm² wires, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-1.5sqmm_1x05_P7.8mm_D1.7mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 5 times 1.5 mm² wires, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm double-strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-1.5sqmm_1x06_P6mm_D1.7mm_OD3mm
+Soldered wire connection, for 6 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm
+0
+6
+6
+Connector_Wire
+SolderWire-1.5sqmm_1x06_P6mm_D1.7mm_OD3mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-1.5sqmm_1x06_P6mm_D1.7mm_OD3mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 6 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm double-strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-1.5sqmm_1x06_P7.8mm_D1.7mm_OD3.9mm
+Soldered wire connection, for 6 times 1.5 mm² wires, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm
+0
+6
+6
+Connector_Wire
+SolderWire-1.5sqmm_1x06_P7.8mm_D1.7mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 1.5 mm² wires, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-1.5sqmm_1x06_P7.8mm_D1.7mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 6 times 1.5 mm² wires, reinforced insulation, conductor diameter 1.7mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1.5sqmm double-strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm
+Soldered wire connection, for a single 1 mm² wire, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm
+0
+1
+1
+Connector_Wire
+SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm_Relief
+Soldered wire connection with feed through strain relief, for a single 1 mm² wire, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-1sqmm_1x01_D1.4mm_OD2.7mm_Relief2x
+Soldered wire connection with double feed through strain relief, for a single 1 mm² wire, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm double-strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm
+Soldered wire connection, for a single 1 mm² wire, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm
+0
+1
+1
+Connector_Wire
+SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for a single 1 mm² wire, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-1sqmm_1x01_D1.4mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for a single 1 mm² wire, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm double-strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm
+Soldered wire connection, for 2 times 1 mm² wires, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm
+0
+2
+2
+Connector_Wire
+SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 1 mm² wires, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 2 times 1 mm² wires, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm double-strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-1sqmm_1x02_P7.8mm_D1.4mm_OD3.9mm
+Soldered wire connection, for 2 times 1 mm² wires, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm
+0
+2
+2
+Connector_Wire
+SolderWire-1sqmm_1x02_P7.8mm_D1.4mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 1 mm² wires, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-1sqmm_1x02_P7.8mm_D1.4mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 2 times 1 mm² wires, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm double-strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-1sqmm_1x03_P5.4mm_D1.4mm_OD2.7mm
+Soldered wire connection, for 3 times 1 mm² wires, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm
+0
+3
+3
+Connector_Wire
+SolderWire-1sqmm_1x03_P5.4mm_D1.4mm_OD2.7mm_Relief
+Soldered wire connection with feed through strain relief, for 3 times 1 mm² wires, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-1sqmm_1x03_P5.4mm_D1.4mm_OD2.7mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 3 times 1 mm² wires, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm double-strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-1sqmm_1x03_P7.8mm_D1.4mm_OD3.9mm
+Soldered wire connection, for 3 times 1 mm² wires, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm
+0
+3
+3
+Connector_Wire
+SolderWire-1sqmm_1x03_P7.8mm_D1.4mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for 3 times 1 mm² wires, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-1sqmm_1x03_P7.8mm_D1.4mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 3 times 1 mm² wires, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm double-strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-1sqmm_1x04_P5.4mm_D1.4mm_OD2.7mm
+Soldered wire connection, for 4 times 1 mm² wires, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm
+0
+4
+4
+Connector_Wire
+SolderWire-1sqmm_1x04_P5.4mm_D1.4mm_OD2.7mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 1 mm² wires, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-1sqmm_1x04_P5.4mm_D1.4mm_OD2.7mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 4 times 1 mm² wires, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm double-strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-1sqmm_1x04_P7.8mm_D1.4mm_OD3.9mm
+Soldered wire connection, for 4 times 1 mm² wires, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm
+0
+4
+4
+Connector_Wire
+SolderWire-1sqmm_1x04_P7.8mm_D1.4mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 1 mm² wires, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-1sqmm_1x04_P7.8mm_D1.4mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 4 times 1 mm² wires, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm double-strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-1sqmm_1x05_P5.4mm_D1.4mm_OD2.7mm
+Soldered wire connection, for 5 times 1 mm² wires, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm
+0
+5
+5
+Connector_Wire
+SolderWire-1sqmm_1x05_P5.4mm_D1.4mm_OD2.7mm_Relief
+Soldered wire connection with feed through strain relief, for 5 times 1 mm² wires, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-1sqmm_1x05_P5.4mm_D1.4mm_OD2.7mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 5 times 1 mm² wires, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm double-strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-1sqmm_1x05_P7.8mm_D1.4mm_OD3.9mm
+Soldered wire connection, for 5 times 1 mm² wires, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm
+0
+5
+5
+Connector_Wire
+SolderWire-1sqmm_1x05_P7.8mm_D1.4mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for 5 times 1 mm² wires, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-1sqmm_1x05_P7.8mm_D1.4mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 5 times 1 mm² wires, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm double-strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-1sqmm_1x06_P5.4mm_D1.4mm_OD2.7mm
+Soldered wire connection, for 6 times 1 mm² wires, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm
+0
+6
+6
+Connector_Wire
+SolderWire-1sqmm_1x06_P5.4mm_D1.4mm_OD2.7mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 1 mm² wires, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-1sqmm_1x06_P5.4mm_D1.4mm_OD2.7mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 6 times 1 mm² wires, basic insulation, conductor diameter 1.4mm, outer diameter 2.7mm, size source Multi-Contact FLEXI-E 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm double-strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-1sqmm_1x06_P7.8mm_D1.4mm_OD3.9mm
+Soldered wire connection, for 6 times 1 mm² wires, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm
+0
+6
+6
+Connector_Wire
+SolderWire-1sqmm_1x06_P7.8mm_D1.4mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 1 mm² wires, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-1sqmm_1x06_P7.8mm_D1.4mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 6 times 1 mm² wires, reinforced insulation, conductor diameter 1.4mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 1.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 1sqmm double-strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm
+Soldered wire connection, for a single 2.5 mm² wire, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm
+0
+1
+1
+Connector_Wire
+SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm_Relief
+Soldered wire connection with feed through strain relief, for a single 2.5 mm² wire, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm_Relief2x
+Soldered wire connection with double feed through strain relief, for a single 2.5 mm² wire, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm double-strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-2.5sqmm_1x01_D2.4mm_OD4.4mm
+Soldered wire connection, for a single 2.5 mm² wire, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm
+0
+1
+1
+Connector_Wire
+SolderWire-2.5sqmm_1x01_D2.4mm_OD4.4mm_Relief
+Soldered wire connection with feed through strain relief, for a single 2.5 mm² wire, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-2.5sqmm_1x01_D2.4mm_OD4.4mm_Relief2x
+Soldered wire connection with double feed through strain relief, for a single 2.5 mm² wire, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm double-strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm
+Soldered wire connection, for 2 times 2.5 mm² wires, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm
+0
+2
+2
+Connector_Wire
+SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 2.5 mm² wires, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 2 times 2.5 mm² wires, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm double-strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-2.5sqmm_1x02_P8.8mm_D2.4mm_OD4.4mm
+Soldered wire connection, for 2 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm
+0
+2
+2
+Connector_Wire
+SolderWire-2.5sqmm_1x02_P8.8mm_D2.4mm_OD4.4mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-2.5sqmm_1x02_P8.8mm_D2.4mm_OD4.4mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 2 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm double-strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-2.5sqmm_1x03_P7.2mm_D2.4mm_OD3.6mm
+Soldered wire connection, for 3 times 2.5 mm² wires, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm
+0
+3
+3
+Connector_Wire
+SolderWire-2.5sqmm_1x03_P7.2mm_D2.4mm_OD3.6mm_Relief
+Soldered wire connection with feed through strain relief, for 3 times 2.5 mm² wires, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-2.5sqmm_1x03_P7.2mm_D2.4mm_OD3.6mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 3 times 2.5 mm² wires, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm double-strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-2.5sqmm_1x03_P8.8mm_D2.4mm_OD4.4mm
+Soldered wire connection, for 3 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm
+0
+3
+3
+Connector_Wire
+SolderWire-2.5sqmm_1x03_P8.8mm_D2.4mm_OD4.4mm_Relief
+Soldered wire connection with feed through strain relief, for 3 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-2.5sqmm_1x03_P8.8mm_D2.4mm_OD4.4mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 3 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm double-strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-2.5sqmm_1x04_P7.2mm_D2.4mm_OD3.6mm
+Soldered wire connection, for 4 times 2.5 mm² wires, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm
+0
+4
+4
+Connector_Wire
+SolderWire-2.5sqmm_1x04_P7.2mm_D2.4mm_OD3.6mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 2.5 mm² wires, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-2.5sqmm_1x04_P7.2mm_D2.4mm_OD3.6mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 4 times 2.5 mm² wires, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm double-strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-2.5sqmm_1x04_P8.8mm_D2.4mm_OD4.4mm
+Soldered wire connection, for 4 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm
+0
+4
+4
+Connector_Wire
+SolderWire-2.5sqmm_1x04_P8.8mm_D2.4mm_OD4.4mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-2.5sqmm_1x04_P8.8mm_D2.4mm_OD4.4mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 4 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm double-strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-2.5sqmm_1x05_P7.2mm_D2.4mm_OD3.6mm
+Soldered wire connection, for 5 times 2.5 mm² wires, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm
+0
+5
+5
+Connector_Wire
+SolderWire-2.5sqmm_1x05_P7.2mm_D2.4mm_OD3.6mm_Relief
+Soldered wire connection with feed through strain relief, for 5 times 2.5 mm² wires, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-2.5sqmm_1x05_P7.2mm_D2.4mm_OD3.6mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 5 times 2.5 mm² wires, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm double-strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-2.5sqmm_1x05_P8.8mm_D2.4mm_OD4.4mm
+Soldered wire connection, for 5 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm
+0
+5
+5
+Connector_Wire
+SolderWire-2.5sqmm_1x05_P8.8mm_D2.4mm_OD4.4mm_Relief
+Soldered wire connection with feed through strain relief, for 5 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-2.5sqmm_1x05_P8.8mm_D2.4mm_OD4.4mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 5 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm double-strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-2.5sqmm_1x06_P7.2mm_D2.4mm_OD3.6mm
+Soldered wire connection, for 6 times 2.5 mm² wires, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm
+0
+6
+6
+Connector_Wire
+SolderWire-2.5sqmm_1x06_P7.2mm_D2.4mm_OD3.6mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 2.5 mm² wires, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-2.5sqmm_1x06_P7.2mm_D2.4mm_OD3.6mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 6 times 2.5 mm² wires, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm double-strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-2.5sqmm_1x06_P8.8mm_D2.4mm_OD4.4mm
+Soldered wire connection, for 6 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm
+0
+6
+6
+Connector_Wire
+SolderWire-2.5sqmm_1x06_P8.8mm_D2.4mm_OD4.4mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-2.5sqmm_1x06_P8.8mm_D2.4mm_OD4.4mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 6 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2.5sqmm double-strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-2sqmm_1x01_D2mm_OD3.9mm
+Soldered wire connection, for a single 2 mm² wire, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm
+0
+1
+1
+Connector_Wire
+SolderWire-2sqmm_1x01_D2mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for a single 2 mm² wire, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-2sqmm_1x01_D2mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for a single 2 mm² wire, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm double-strain-relief
+0
+1
+1
+Connector_Wire
+SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm
+Soldered wire connection, for 2 times 2 mm² wires, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm
+0
+2
+2
+Connector_Wire
+SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for 2 times 2 mm² wires, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 2 times 2 mm² wires, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm double-strain-relief
+0
+2
+2
+Connector_Wire
+SolderWire-2sqmm_1x03_P7.8mm_D2mm_OD3.9mm
+Soldered wire connection, for 3 times 2 mm² wires, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm
+0
+3
+3
+Connector_Wire
+SolderWire-2sqmm_1x03_P7.8mm_D2mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for 3 times 2 mm² wires, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-2sqmm_1x03_P7.8mm_D2mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 3 times 2 mm² wires, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm double-strain-relief
+0
+3
+3
+Connector_Wire
+SolderWire-2sqmm_1x04_P7.8mm_D2mm_OD3.9mm
+Soldered wire connection, for 4 times 2 mm² wires, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm
+0
+4
+4
+Connector_Wire
+SolderWire-2sqmm_1x04_P7.8mm_D2mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for 4 times 2 mm² wires, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-2sqmm_1x04_P7.8mm_D2mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 4 times 2 mm² wires, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm double-strain-relief
+0
+4
+4
+Connector_Wire
+SolderWire-2sqmm_1x05_P7.8mm_D2mm_OD3.9mm
+Soldered wire connection, for 5 times 2 mm² wires, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm
+0
+5
+5
+Connector_Wire
+SolderWire-2sqmm_1x05_P7.8mm_D2mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for 5 times 2 mm² wires, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-2sqmm_1x05_P7.8mm_D2mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 5 times 2 mm² wires, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm double-strain-relief
+0
+5
+5
+Connector_Wire
+SolderWire-2sqmm_1x06_P7.8mm_D2mm_OD3.9mm
+Soldered wire connection, for 6 times 2 mm² wires, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm
+0
+6
+6
+Connector_Wire
+SolderWire-2sqmm_1x06_P7.8mm_D2mm_OD3.9mm_Relief
+Soldered wire connection with feed through strain relief, for 6 times 2 mm² wires, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm strain-relief
+0
+6
+6
+Connector_Wire
+SolderWire-2sqmm_1x06_P7.8mm_D2mm_OD3.9mm_Relief2x
+Soldered wire connection with double feed through strain relief, for 6 times 2 mm² wires, reinforced insulation, conductor diameter 2mm, outer diameter 3.9mm, size source Multi-Contact FLEXI-xV 2.0 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
+connector wire 2sqmm double-strain-relief
+0
+6
+6
+Connector_Wire
+SolderWirePad_1x01_SMD_1x2mm
+Wire Pad, Square, SMD Pad,  1mm x 2mm,
+MesurementPoint Square SMDPad 1mmx2mm 
+0
+1
+1
+Connector_Wire
+SolderWirePad_1x01_SMD_5x10mm
+Wire Pad, Square, SMD Pad,  5mm x 10mm,
+MesurementPoint Square SMDPad 5mmx10mm 
+0
+1
+1
