@@ -3274,7 +3274,7 @@
     (property "Value" "1N4742A" (at 34.925 160.02 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (at 27.94 158.75 0)
+    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P3.81mm_Vertical_KathodeUp" (at 27.94 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf" (at 32.385 158.75 0)
