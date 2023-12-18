@@ -4146,7 +4146,7 @@
     (property "Value" "BAT42" (at 137.4775 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp" (at 137.16 71.12 0)
+    (property "Footprint" "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" (at 137.16 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf" (at 137.16 75.565 0)
